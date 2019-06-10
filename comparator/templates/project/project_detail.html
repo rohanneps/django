@@ -1,0 +1,94 @@
+
+{% extends 'base.html' %}
+
+{% block title %}
+    <title>{{project.project_name}}</title>
+{% endblock %}
+
+{% block content %}
+<div class="dropdown" style="color:blue;margin-right:15%;float:right;position: relative;top: 58px;font-size: 18px;">
+    <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"> Project Options
+    <span class="caret"></span>
+  </button>
+
+    <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+        <li> <a href='{% url 'history:project_comparator_history' project.id %}'>Project Comparison History</a></li>
+         <li><a href='{% url 'history:project_url_history' project.id %}'>Project url History</a></li>
+         <li><a href='{% url 'history:project_xpath_history' project.id %}'>Project xpath History</a></li>
+    </ul>
+</div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6 col-md-offset-2">
+                {% if is_user_assigned_to_project %}
+                    {% load crispy_forms_tags %}
+                        <h1>{{ project.project_name }}</h1>
+                        <hr>
+
+                        <p>
+                            <ul>
+                                <li>StartDate: {{project.start_date}}</li>
+                                <li>EndDate: {{project.end_date}}</li>
+                            </ul>
+                            <hr>
+                            
+                        </p>
+
+                        {% if form %}
+                            <form id="detailform" action="{% url 'engine:start_comparator' project.id %}" method="POST" enctype="multipart/form-data">
+                                {% csrf_token %}
+
+                                <div class="col-lg-4">
+                                {# url block #}
+                                <div id="url">
+                                    {{ form.url_file.label_tag }} {{ form.url_file }}
+                                    <span id="url_file_error" style="color: red; font-size: 14px;">
+                                        URL file should be in CSV!
+                                    </span>
+                                </div>
+                                <br/>
+                                {# xpath block #}
+                                <div id="xpath">
+                                    {{ form.xpath_file.label_tag }} {{ form.xpath_file }}
+                                    <span id="xpath_file_error" style="color: red; font-size: 14px;">
+                                        Xpath file should be in CSV!
+                                    </span>
+                                </div>
+                                <br/>
+                                {# platform import file block #}
+                                <div id="platform_import">
+                                    {{ form.platform_import_file.label_tag }} {{ form.platform_import_file }}
+                                    <span id="platform_import_file_error" style="color: red; font-size: 14px;">
+                                        platform import file should be in CSV!
+                                    </span>
+                                </div>
+                                <br/>
+                                {# run priority #}
+                                <div id="err_count">
+                                 
+                                    {{ form.run_priority.label_tag }} {{ form.run_priority }}
+                                    <p id="max_err_count">
+                                        Error count:
+                                        <input type="text" class="form-control" name="errcount" id="err_count_val">
+                                        <span id="err_count_error" style="color: red; font-size: 14px;">
+                                            Please enter maximum error count in case where priority is 1.
+                                        </span>
+                                    </p>
+                                    </div>
+                                
+                                <hr>
+                                <input type="submit" class="btn btn-info" value="Start Comparator" id="detailformsubmitbutton" />
+                                </div>
+                            </form>
+                        {% endif %}
+                {% else %}
+                    This project is not authorized for you. Please select appropraite project.
+                    <br>
+                    <a href="{% url 'project:project_list' %}"> List of Projects</a>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+{% endblock %}
+

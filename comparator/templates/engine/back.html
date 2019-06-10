@@ -1,0 +1,20 @@
+{% if is_valid_comp_request %}
+Comparator engine started by {{user}}  with ID: {{process_id}}
+<br>
+<h3> Project : {{project_comparator.0.project}}</h3>
+<br>
+<ol>
+<h3>Comparison Date->  {{project_comparator.0.timestamp}}</h3>
+      <li><b>User:</b> {{project_comparator.0.user}}</li>
+      <li><b>Url file name:</b>{{project_comparator.0.project_url_file}}</li>
+      <li><b>Xpath file name:</b>{{project_comparator.0.project_xpath_file}}</li>
+      <li><b>Platform file name:</b>{{project_comparator.0.project_platform_import_file}}</li>
+      <li><b>Project status:</b>{{project_comparator.0.project_status}}</li>
+      <li><b>Project run priority:</b>{{project_comparator.0.run_priority}}</li>
+</ol>
+{% else %}
+<h3> Comparator details doesn't exits. Please select from the following. </h3>
+<br>
+    <a href="{% url 'project:project_list' %}"> List of Projects</a>
+
+{% endif %}

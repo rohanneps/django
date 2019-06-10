@@ -1,0 +1,93 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    <title>
+        {{project_name}} url history
+    </title>
+{% endblock %}
+
+{% block content %}
+    {% if is_user_assigned_to_project %}
+        {% if project_url_history_list %}
+
+         <form method='GET' action='' style="margin-left: 35px;"">
+        
+            <div class="col-md-offset-7 col-lg-3">
+            <input type="text" class="form-control" placeholder="Search for..."  name='primary_id'>
+            </div>
+            <input type='submit' class="btn btn-primary" value='Search Primary ID'/>
+        </form>
+
+            <h1 align="left" style="margin-left: 35px; width: 95%;">{{project_name}}</h1>
+            <div class="container-fluid">
+                <div class="row">
+                    <table class="table table-striped table-bordered table-responsive" style="margin-left: 35px; width: 95%;">
+                        <tr>
+                            <th style="width:40px">#</th>
+                            <th>Primary ID</th>
+                            <th>Url</th>
+                            <th>Timestamp</th>
+                        </tr>
+                        {% for project_url in project_url_history_list %}
+                            <tr>
+                                <td>
+                                    {{ forloop.counter }}
+                                </td>
+                                <td>
+                                    {{project_url.primary_identifier}}
+                                </td>
+                                <td>
+                                    {% if project_url.url %}
+                                    <a href='{{project_url.url}}'>{{project_url.url}} <span class="glyphicon glyphicon-open"></span></a>
+                                    {% endif %}
+                                </td>
+                                <td>
+                                    {{project_url.timestamp}}
+                                </td>
+                            </tr>
+                        {% endfor %}
+                    </table>
+
+                    {% if is_paginated %}
+                        <center>
+                            <div>
+                              <ul class="pagination">
+                                {% if page_obj.has_previous %}
+                                  <li><a href="?page={{ page_obj.previous_page_number }}">&laquo;</a></li>
+                                {% else %}
+                                  <li class="disabled"><span>&laquo;</span></li>
+                                {% endif %}
+                                {% for i in paginator.page_range %}
+                                  {% if page_obj.number == i %}
+                                    <li class="active"><span>{{ i }} <span class="sr-only">(current)</span></span></li>
+                                  {% else%}
+                                        {% if i >= page_obj.number|add:"-3" and i <= page_obj.number|add:"+3"  %}
+                                        <li><a href="?page={{ i }}">{{ i }}</a></li>
+                                        {% endif %}
+                                  {% endif %}
+                                {% endfor %}
+                                {% if page_obj.has_next %}
+                                  <li><a href="?page={{ page_obj.next_page_number }}">&raquo;</a></li>
+                                {% else %}
+                                  <li class="disabled"><span>&raquo;</span></li>
+                                {% endif %}
+                              </ul>
+                            </div>
+                        </center>
+                    {% endif %}
+                
+
+                </div>
+            </div>
+        {% else %}
+            <h1>No url history found for {{project_name}}. </h1>
+            <br>
+            <a href="{% url 'project:project_list' %}"> List of Projects</a>
+        {% endif %}
+
+    {% else %}
+        This project url is not authorized for you. Please select appropraite project.
+        <br>
+        <a href="{% url 'project:project_list' %}"> List of Projects</a>
+    {% endif %}
+{% endblock %}

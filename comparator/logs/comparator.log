@@ -1,0 +1,141 @@
+[2017-08-24 08:30:22] [WARNING] [django.request] [PID:1495_140194493511424]--> Not Found: /null/null/get-comparison-status
+[2017-08-24 08:34:42] [INFO] [engine.views] [PID:1495_140194485118720]--> Project:[1] Inserting details to database
+[2017-08-24 08:34:42] [INFO] [engine.signals] [PID:1495_140194485118720]--> Project:[269]  --> Url details inserted
+[2017-08-24 08:34:42] [INFO] [engine.signals] [PID:1495_140194485118720]--> Project:[269]  --> Xpath details inserted
+[2017-08-24 08:34:42] [INFO] [engine.views] [PID:1495_140194485118720]--> Inserting project comparison details to database for RGW by rohan
+[2017-08-24 08:34:42] [INFO] [core.start] [PID:24921_140710190483200]--> ComparisonId = 269 :  max error => 0
+[2017-08-24 08:34:42] [INFO] [core.start] [PID:24921_140710190483200]--> ComparisonId = 269 :  project_run_type => 2
+[2017-08-24 08:34:42] [INFO] [engine.views] [PID:1495_140194594223872]--> Comparator started by rohan with id: 269
+[2017-08-24 08:34:47] [INFO] [core.start] [PID:24921_140710190483200]--> *****************************
+[2017-08-24 08:34:47] [INFO] [core.start] [PID:24921_140710190483200]--> ComparisonId = 269 : Starting Scrapping task!!
+[2017-08-24 08:37:55] [INFO] [core.start] [PID:24921_140710190483200]--> ComparisonId = 269 : [172619]--- has error for field --> Maker2 with xpath ---> //*[@id="maincontent"]/div[2]/div/div[3]/div[3]/div[2]/div/div/div/div[1]
+[2017-08-24 08:38:02] [INFO] [core.start] [PID:24921_140710190483200]--> ComparisonId = 269 : [172619]--- has error for field --> Maker3 with xpath ---> //*[@id="maincontent"]/div[2]/div/div[3]/div[3]/div[3]/div/div/div/div[1]
+[2017-08-24 08:38:08] [INFO] [core.start] [PID:24921_140710190483200]--> ComparisonId = 269 : [172619]--- has error for field --> Maker4 with xpath ---> //*[@id="maincontent"]/div[2]/div/div[3]/div[3]/div[4]/div/div/div/div[1]
+[2017-08-24 08:38:14] [INFO] [core.start] [PID:24921_140710190483200]--> ComparisonId = 269 : [172619]--- has error for field --> Blade Length with xpath ---> //*[div = ' Blade Length:']/div[2]
+[2017-08-24 08:38:20] [INFO] [core.start] [PID:24921_140710190483200]--> ComparisonId = 269 : [172619]--- has error for field --> Source with xpath ---> //*[div = ' Source:']/div[2]
+[2017-08-24 08:38:27] [INFO] [core.start] [PID:24921_140710190483200]--> ComparisonId = 269 : [172619]--- has error for field --> Blade_Material with xpath ---> //*[div = ' Blade Material:']/div[2]
+[2017-08-24 08:38:33] [INFO] [core.start] [PID:24921_140710190483200]--> ComparisonId = 269 : [172619]--- has error for field --> Blade_Details with xpath ---> //*[div = ' Blade Details:']/div[2]
+[2017-08-24 08:38:39] [INFO] [core.start] [PID:24921_140710190483200]--> ComparisonId = 269 : [172619]--- has error for field --> Handle_Material with xpath ---> //*[div = ' Handle Material:']/div[2]
+[2017-08-24 08:38:46] [INFO] [core.start] [PID:24921_140710190483200]--> ComparisonId = 269 : [172619]--- has error for field --> Other_Details with xpath ---> //*[div = ' Other Details:']/div[2]
+[2017-08-24 08:38:59] [INFO] [core.start] [PID:24921_140710190483200]--> ComparisonId = 269 : [17262]--- has error for field --> Maker2 with xpath ---> //*[@id="maincontent"]/div[2]/div/div[3]/div[3]/div[2]/div/div/div/div[1]
+[2017-08-24 08:39:05] [INFO] [core.start] [PID:24921_140710190483200]--> ComparisonId = 269 : [17262]--- has error for field --> Maker3 with xpath ---> //*[@id="maincontent"]/div[2]/div/div[3]/div[3]/div[3]/div/div/div/div[1]
+[2017-08-24 08:39:10] [INFO] [core.start] [PID:24921_140710190483200]--> ComparisonId = 269 : [17262]--- has error for field --> Maker4 with xpath ---> //*[@id="maincontent"]/div[2]/div/div[3]/div[3]/div[4]/div/div/div/div[1]
+[2017-08-24 08:39:17] [INFO] [core.start] [PID:24921_140710190483200]--> ComparisonId = 269 : [17262]--- has error for field --> Blade_Material with xpath ---> //*[div = ' Blade Material:']/div[2]
+[2017-08-24 08:39:23] [INFO] [core.start] [PID:24921_140710190483200]--> ComparisonId = 269 : [17262]--- has error for field --> Other_Details with xpath ---> //*[div = ' Other Details:']/div[2]
+[2017-08-24 08:39:35] [INFO] [core.start] [PID:24921_140710190483200]--> ComparisonId = 269 : [172620]--- has error for field --> Maker2 with xpath ---> //*[@id="maincontent"]/div[2]/div/div[3]/div[3]/div[2]/div/div/div/div[1]
+[2017-08-24 08:39:41] [INFO] [core.start] [PID:24921_140710190483200]--> ComparisonId = 269 : [172620]--- has error for field --> Maker3 with xpath ---> //*[@id="maincontent"]/div[2]/div/div[3]/div[3]/div[3]/div/div/div/div[1]
+[2017-08-24 08:39:47] [INFO] [core.start] [PID:24921_140710190483200]--> ComparisonId = 269 : [172620]--- has error for field --> Maker4 with xpath ---> //*[@id="maincontent"]/div[2]/div/div[3]/div[3]/div[4]/div/div/div/div[1]
+[2017-08-24 08:39:54] [INFO] [core.start] [PID:24921_140710190483200]--> ComparisonId = 269 : [172620]--- has error for field --> Source with xpath ---> //*[div = ' Source:']/div[2]
+[2017-08-24 08:40:00] [INFO] [core.start] [PID:24921_140710190483200]--> ComparisonId = 269 : [172620]--- has error for field --> Blade_Material with xpath ---> //*[div = ' Blade Material:']/div[2]
+[2017-08-24 08:40:07] [INFO] [core.start] [PID:24921_140710190483200]--> ComparisonId = 269 : [172620]--- has error for field --> Blade_Details with xpath ---> //*[div = ' Blade Details:']/div[2]
+[2017-08-24 08:40:13] [INFO] [core.start] [PID:24921_140710190483200]--> ComparisonId = 269 : [172620]--- has error for field --> Handle_Material with xpath ---> //*[div = ' Handle Material:']/div[2]
+[2017-08-24 08:40:20] [INFO] [core.start] [PID:24921_140710190483200]--> ComparisonId = 269 : [172620]--- has error for field --> Other_Details with xpath ---> //*[div = ' Other Details:']/div[2]
+[2017-08-24 08:40:30] [INFO] [core.start] [PID:24921_140710190483200]--> ComparisonId = 269 : [172621]--- has error for field --> Maker2 with xpath ---> //*[@id="maincontent"]/div[2]/div/div[3]/div[3]/div[2]/div/div/div/div[1]
+[2017-08-24 08:40:36] [INFO] [core.start] [PID:24921_140710190483200]--> ComparisonId = 269 : [172621]--- has error for field --> Maker3 with xpath ---> //*[@id="maincontent"]/div[2]/div/div[3]/div[3]/div[3]/div/div/div/div[1]
+[2017-08-24 08:40:42] [INFO] [core.start] [PID:24921_140710190483200]--> ComparisonId = 269 : [172621]--- has error for field --> Maker4 with xpath ---> //*[@id="maincontent"]/div[2]/div/div[3]/div[3]/div[4]/div/div/div/div[1]
+[2017-08-24 08:40:48] [INFO] [core.start] [PID:24921_140710190483200]--> ComparisonId = 269 : [172621]--- has error for field --> Source with xpath ---> //*[div = ' Source:']/div[2]
+[2017-08-24 08:40:55] [INFO] [core.start] [PID:24921_140710190483200]--> ComparisonId = 269 : [172621]--- has error for field --> Blade_Material with xpath ---> //*[div = ' Blade Material:']/div[2]
+[2017-08-24 08:41:00] [INFO] [core.start] [PID:24921_140710190483200]--> ComparisonId = 269 : [172621]--- has error for field --> Blade_Details with xpath ---> //*[div = ' Blade Details:']/div[2]
+[2017-08-24 08:41:07] [INFO] [core.start] [PID:24921_140710190483200]--> ComparisonId = 269 : [172621]--- has error for field --> Handle_Material with xpath ---> //*[div = ' Handle Material:']/div[2]
+[2017-08-24 08:41:13] [INFO] [core.start] [PID:24921_140710190483200]--> ComparisonId = 269 : [172621]--- has error for field --> Other_Details with xpath ---> //*[div = ' Other Details:']/div[2]
+[2017-08-24 08:41:24] [INFO] [core.start] [PID:24921_140710190483200]--> ComparisonId = 269 : [172622]--- has error for field --> Maker2 with xpath ---> //*[@id="maincontent"]/div[2]/div/div[3]/div[3]/div[2]/div/div/div/div[1]
+[2017-08-24 08:41:30] [INFO] [core.start] [PID:24921_140710190483200]--> ComparisonId = 269 : [172622]--- has error for field --> Maker3 with xpath ---> //*[@id="maincontent"]/div[2]/div/div[3]/div[3]/div[3]/div/div/div/div[1]
+[2017-08-24 08:41:37] [INFO] [core.start] [PID:24921_140710190483200]--> ComparisonId = 269 : [172622]--- has error for field --> Maker4 with xpath ---> //*[@id="maincontent"]/div[2]/div/div[3]/div[3]/div[4]/div/div/div/div[1]
+[2017-08-24 08:41:43] [INFO] [core.start] [PID:24921_140710190483200]--> ComparisonId = 269 : [172622]--- has error for field --> Blade Length with xpath ---> //*[div = ' Blade Length:']/div[2]
+[2017-08-24 08:41:50] [INFO] [core.start] [PID:24921_140710190483200]--> ComparisonId = 269 : [172622]--- has error for field --> Source with xpath ---> //*[div = ' Source:']/div[2]
+[2017-08-24 08:41:55] [INFO] [core.start] [PID:24921_140710190483200]--> ComparisonId = 269 : [172622]--- has error for field --> Blade_Material with xpath ---> //*[div = ' Blade Material:']/div[2]
+[2017-08-24 08:42:01] [INFO] [core.start] [PID:24921_140710190483200]--> ComparisonId = 269 : [172622]--- has error for field --> Blade_Details with xpath ---> //*[div = ' Blade Details:']/div[2]
+[2017-08-24 08:42:07] [INFO] [core.start] [PID:24921_140710190483200]--> ComparisonId = 269 : [172622]--- has error for field --> Handle_Material with xpath ---> //*[div = ' Handle Material:']/div[2]
+[2017-08-24 08:42:14] [INFO] [core.start] [PID:24921_140710190483200]--> ComparisonId = 269 : [172622]--- has error for field --> Other_Details with xpath ---> //*[div = ' Other Details:']/div[2]
+[2017-08-24 08:42:27] [INFO] [core.start] [PID:24921_140710190483200]--> ComparisonId = 269 : [172623]--- has error for field --> Maker2 with xpath ---> //*[@id="maincontent"]/div[2]/div/div[3]/div[3]/div[2]/div/div/div/div[1]
+[2017-08-24 08:42:33] [INFO] [core.start] [PID:24921_140710190483200]--> ComparisonId = 269 : [172623]--- has error for field --> Maker3 with xpath ---> //*[@id="maincontent"]/div[2]/div/div[3]/div[3]/div[3]/div/div/div/div[1]
+[2017-08-24 08:42:39] [INFO] [core.start] [PID:24921_140710190483200]--> ComparisonId = 269 : [172623]--- has error for field --> Maker4 with xpath ---> //*[@id="maincontent"]/div[2]/div/div[3]/div[3]/div[4]/div/div/div/div[1]
+[2017-08-24 08:42:44] [INFO] [core.start] [PID:24921_140710190483200]--> ComparisonId = 269 : [172623]--- has error for field --> base_image with xpath ---> //*[@id="maincontent"]/div[2]/div/div[1]/div/div[2]/div[2]/div[1]/div[3]/div[1]/img
+[2017-08-24 08:42:50] [INFO] [core.start] [PID:24921_140710190483200]--> ComparisonId = 269 : [172623]--- has error for field --> Blade Length with xpath ---> //*[div = ' Blade Length:']/div[2]
+[2017-08-24 08:42:56] [INFO] [core.start] [PID:24921_140710190483200]--> ComparisonId = 269 : [172623]--- has error for field --> Source with xpath ---> //*[div = ' Source:']/div[2]
+[2017-08-24 08:43:02] [INFO] [core.start] [PID:24921_140710190483200]--> ComparisonId = 269 : [172623]--- has error for field --> Blade_Material with xpath ---> //*[div = ' Blade Material:']/div[2]
+[2017-08-24 08:43:08] [INFO] [core.start] [PID:24921_140710190483200]--> ComparisonId = 269 : [172623]--- has error for field --> Blade_Details with xpath ---> //*[div = ' Blade Details:']/div[2]
+[2017-08-24 08:43:14] [INFO] [core.start] [PID:24921_140710190483200]--> ComparisonId = 269 : [172623]--- has error for field --> Handle_Material with xpath ---> //*[div = ' Handle Material:']/div[2]
+[2017-08-24 08:43:20] [INFO] [core.start] [PID:24921_140710190483200]--> ComparisonId = 269 : [172623]--- has error for field --> Other_Details with xpath ---> //*[div = ' Other Details:']/div[2]
+[2017-08-24 08:48:20] [INFO] [core.start] [PID:24921_140710190483200]--> Connection issue for id 172624 with url http://arizonacustomknives.com.c.fohwqaw34hdgi.ent.magento.cloud/index.php/mini-chubby-fuller-by-zach-wood-172624.html 
+[2017-08-24 08:48:20] [INFO] [core.start] [PID:24921_140710190483200]--> ComparisonId = 269 : Scrapping task completed!!
+[2017-08-24 08:48:20] [INFO] [core.start] [PID:24921_140710190483200]--> ComparisonId = 269 : Scrapping details written to file --> Comparator_Output/RGW/RGW_scrapped_20170824-083442.csv
+[2017-08-24 08:48:20] [INFO] [core.start] [PID:24921_140710190483200]--> *****************************
+[2017-08-24 08:48:20] [INFO] [core.start] [PID:24921_140710190483200]--> *****************************
+[2017-08-24 08:48:20] [INFO] [core.start] [PID:24921_140710190483200]--> ComparisonId = 269 : Starting comparision task
+[2017-08-24 08:48:20] [INFO] [core.start] [PID:24921_140710190483200]--> ComparisonId = 269 : Comparing for 149735
+[2017-08-24 08:48:21] [INFO] [core.start] [PID:24921_140710190483200]--> ComparisonId = 269 : Comparing for 149736
+[2017-08-24 08:48:21] [INFO] [core.start] [PID:24921_140710190483200]--> ComparisonId = 269 : Comparision task completed
+[2017-08-24 08:48:21] [INFO] [core.start] [PID:24921_140710190483200]--> *****************************
+[2017-08-24 08:48:21] [INFO] [core.start] [PID:24921_140710190483200]--> *****************************
+[2017-08-24 08:48:21] [INFO] [core.start] [PID:24921_140710190483200]--> ComparisonId = 269 : Closing Comparator!!!!
+[2017-08-24 08:48:21] [INFO] [core.start] [PID:24921_140710190483200]--> *****************************
+[2017-08-24 08:48:21] [INFO] [core.start] [PID:24921_140710190483200]--> ComparisonId = 269 : Completed Comparison  with total error => 9 
+[2017-08-24 08:48:26] [INFO] [engine.views] [PID:1495_140194485118720]--> Comparator started by rohan with id: 269
+[2017-08-24 08:50:21] [INFO] [engine.views] [PID:1495_140194594223872]--> Project:[1] Inserting details to database
+[2017-08-24 08:50:21] [INFO] [engine.signals] [PID:1495_140194594223872]--> Project:[270]  --> Url details inserted
+[2017-08-24 08:50:21] [INFO] [engine.signals] [PID:1495_140194594223872]--> Project:[270]  --> Xpath details inserted
+[2017-08-24 08:50:21] [INFO] [engine.views] [PID:1495_140194594223872]--> Inserting project comparison details to database for RGW by rohan
+[2017-08-24 08:50:21] [INFO] [engine.views] [PID:1495_140194485118720]--> Comparator started by rohan with id: 270
+[2017-08-24 08:50:21] [INFO] [core.start] [PID:24924_139934682117888]--> ComparisonId = 270 :  max error => 0
+[2017-08-24 08:50:21] [INFO] [core.start] [PID:24924_139934682117888]--> ComparisonId = 270 :  project_run_type => 2
+[2017-08-24 08:50:22] [INFO] [core.start] [PID:24924_139934682117888]--> *****************************
+[2017-08-24 08:50:22] [INFO] [core.start] [PID:24924_139934682117888]--> ComparisonId = 270 : Starting Scrapping task!!
+[2017-08-24 08:51:22] [INFO] [core.start] [PID:24924_139934682117888]--> ComparisonId = 270 : [172624]--- has error for field --> Maker2 with xpath ---> //*[@id="maincontent"]/div[2]/div/div[3]/div[3]/div[2]/div/div/div/div[1]
+[2017-08-24 08:51:28] [INFO] [core.start] [PID:24924_139934682117888]--> ComparisonId = 270 : [172624]--- has error for field --> Maker3 with xpath ---> //*[@id="maincontent"]/div[2]/div/div[3]/div[3]/div[3]/div/div/div/div[1]
+[2017-08-24 08:51:34] [INFO] [core.start] [PID:24924_139934682117888]--> ComparisonId = 270 : [172624]--- has error for field --> Maker4 with xpath ---> //*[@id="maincontent"]/div[2]/div/div[3]/div[3]/div[4]/div/div/div/div[1]
+[2017-08-24 08:51:40] [INFO] [core.start] [PID:24924_139934682117888]--> ComparisonId = 270 : [172624]--- has error for field --> Blade Length with xpath ---> //*[div = ' Blade Length:']/div[2]
+[2017-08-24 08:51:47] [INFO] [core.start] [PID:24924_139934682117888]--> ComparisonId = 270 : [172624]--- has error for field --> Source with xpath ---> //*[div = ' Source:']/div[2]
+[2017-08-24 08:51:53] [INFO] [core.start] [PID:24924_139934682117888]--> ComparisonId = 270 : [172624]--- has error for field --> Blade_Material with xpath ---> //*[div = ' Blade Material:']/div[2]
+[2017-08-24 08:51:59] [INFO] [core.start] [PID:24924_139934682117888]--> ComparisonId = 270 : [172624]--- has error for field --> Blade_Details with xpath ---> //*[div = ' Blade Details:']/div[2]
+[2017-08-24 08:52:05] [INFO] [core.start] [PID:24924_139934682117888]--> ComparisonId = 270 : [172624]--- has error for field --> Handle_Material with xpath ---> //*[div = ' Handle Material:']/div[2]
+[2017-08-24 08:52:11] [INFO] [core.start] [PID:24924_139934682117888]--> ComparisonId = 270 : [172624]--- has error for field --> Other_Details with xpath ---> //*[div = ' Other Details:']/div[2]
+[2017-08-24 08:52:11] [INFO] [core.start] [PID:24924_139934682117888]--> ComparisonId = 270 : Scrapping task completed!!
+[2017-08-24 08:52:11] [INFO] [core.start] [PID:24924_139934682117888]--> ComparisonId = 270 : Scrapping details written to file --> Comparator_Output/RGW/RGW_scrapped_20170824-085021.csv
+[2017-08-24 08:52:11] [INFO] [core.start] [PID:24924_139934682117888]--> *****************************
+[2017-08-24 08:52:11] [INFO] [core.start] [PID:24924_139934682117888]--> *****************************
+[2017-08-24 08:52:11] [INFO] [core.start] [PID:24924_139934682117888]--> ComparisonId = 270 : Starting comparision task
+[2017-08-24 08:52:11] [INFO] [core.start] [PID:24924_139934682117888]--> ComparisonId = 270 : Comparing for 149735
+[2017-08-24 08:52:11] [INFO] [core.start] [PID:24924_139934682117888]--> ComparisonId = 270 : Comparing for 149736
+[2017-08-24 08:52:11] [INFO] [core.start] [PID:24924_139934682117888]--> ComparisonId = 270 : Comparision task completed
+[2017-08-24 08:52:11] [INFO] [core.start] [PID:24924_139934682117888]--> *****************************
+[2017-08-24 08:52:11] [INFO] [core.start] [PID:24924_139934682117888]--> *****************************
+[2017-08-24 08:52:11] [INFO] [core.start] [PID:24924_139934682117888]--> ComparisonId = 270 : Closing Comparator!!!!
+[2017-08-24 08:52:11] [INFO] [core.start] [PID:24924_139934682117888]--> *****************************
+[2017-08-24 08:52:11] [INFO] [core.start] [PID:24924_139934682117888]--> ComparisonId = 270 : Completed Comparison  with total error => 3 
+[2017-08-24 09:00:14] [INFO] [engine.views] [PID:1495_140194485118720]--> Comparator started by rohan with id: 270
+[2017-08-25 06:44:15] [WARNING] [django.request] [PID:3808_139669528446720]--> Not Found: /login/null/null/get-comparison-status
+[2017-08-25 06:44:15] [WARNING] [django.request] [PID:3808_139669410948864]--> Not Found: /favicon.ico
+[2017-08-25 06:44:22] [WARNING] [django.request] [PID:3808_139669410948864]--> Not Found: /login/null/null/get-comparison-status
+[2017-08-25 06:44:25] [WARNING] [django.request] [PID:3808_139669528446720]--> Not Found: /null/null/get-comparison-status
+[2017-08-25 06:44:40] [INFO] [engine.views] [PID:3808_139669528446720]--> Project:[1] Inserting details to database
+[2017-08-25 06:44:40] [INFO] [engine.signals] [PID:3808_139669528446720]--> Project:[271]  --> Url details inserted
+[2017-08-25 06:44:40] [INFO] [engine.signals] [PID:3808_139669528446720]--> Project:[271]  --> Xpath details inserted
+[2017-08-25 06:44:41] [INFO] [engine.views] [PID:3808_139669528446720]--> Inserting project comparison details to database for RGW by rohan
+[2017-08-25 06:44:41] [INFO] [engine.views] [PID:3808_139669419341568]--> Comparator started by rohan with id: 271
+[2017-08-25 06:44:41] [INFO] [core.start] [PID:7252_139917534861056]--> ComparisonId = 271 :  max error => 0
+[2017-08-25 06:44:41] [INFO] [core.start] [PID:7252_139917534861056]--> ComparisonId = 271 :  project_run_type => 2
+[2017-08-25 06:44:45] [INFO] [core.start] [PID:7252_139917534861056]--> *****************************
+[2017-08-25 06:44:45] [INFO] [core.start] [PID:7252_139917534861056]--> ComparisonId = 271 : Starting Scrapping task!!
+[2017-08-25 06:45:15] [INFO] [core.start] [PID:7252_139917534861056]--> ComparisonId = 271 : [149735]--- has error for field --> Maker2 with xpath ---> //*[@id="maincontent"]/div[2]/div/div[3]/div[3]/div[2]/div/div/div/div[1]
+[2017-08-25 06:45:21] [INFO] [core.start] [PID:7252_139917534861056]--> ComparisonId = 271 : [149735]--- has error for field --> Maker3 with xpath ---> //*[@id="maincontent"]/div[2]/div/div[3]/div[3]/div[3]/div/div/div/div[1]
+[2017-08-25 06:45:27] [INFO] [core.start] [PID:7252_139917534861056]--> ComparisonId = 271 : [149735]--- has error for field --> Maker4 with xpath ---> //*[@id="maincontent"]/div[2]/div/div[3]/div[3]/div[4]/div/div/div/div[1]
+[2017-08-25 06:45:27] [INFO] [core.start] [PID:7252_139917534861056]--> Invalid url for id 149736 with url http:// 
+[2017-08-25 06:45:30] [INFO] [core.start] [PID:7252_139917534861056]--> ComparisonId = 271 : Scrapping task completed!!
+[2017-08-25 06:45:30] [INFO] [core.start] [PID:7252_139917534861056]--> ComparisonId = 271 : Scrapping details written to file --> Comparator_Output/RGW/RGW_scrapped_20170825-064440.csv
+[2017-08-25 06:45:30] [INFO] [core.start] [PID:7252_139917534861056]--> *****************************
+[2017-08-25 06:45:30] [INFO] [core.start] [PID:7252_139917534861056]--> *****************************
+[2017-08-25 06:45:30] [INFO] [core.start] [PID:7252_139917534861056]--> ComparisonId = 271 : Starting comparision task
+[2017-08-25 06:45:30] [INFO] [core.start] [PID:7252_139917534861056]--> ComparisonId = 271 : Comparing for 149735
+[2017-08-25 06:45:30] [INFO] [core.start] [PID:7252_139917534861056]--> ComparisonId = 271 : Comparing for 149736
+[2017-08-25 06:45:30] [INFO] [core.start] [PID:7252_139917534861056]--> ComparisonId = 271 : [149736] has invalid URL error
+[2017-08-25 06:45:30] [INFO] [core.start] [PID:7252_139917534861056]--> ComparisonId = 271 : [149013] has url error
+[2017-08-25 06:45:30] [INFO] [core.start] [PID:7252_139917534861056]--> ComparisonId = 271 : Comparision task completed
+[2017-08-25 06:45:30] [INFO] [core.start] [PID:7252_139917534861056]--> *****************************
+[2017-08-25 06:45:30] [INFO] [core.start] [PID:7252_139917534861056]--> *****************************
+[2017-08-25 06:45:30] [INFO] [core.start] [PID:7252_139917534861056]--> ComparisonId = 271 : Closing Comparator!!!!
+[2017-08-25 06:45:30] [INFO] [core.start] [PID:7252_139917534861056]--> *****************************
+[2017-08-25 06:45:30] [INFO] [core.start] [PID:7252_139917534861056]--> ComparisonId = 271 : Completed Comparison  with total error => 2 
+[2017-08-25 06:46:02] [INFO] [engine.views] [PID:3808_139669419341568]--> Comparator started by rohan with id: 271
+[2017-12-21 12:14:10] [WARNING] [django.request] [PID:3761_140563066193664]--> Not Found: /login/null/null/get-comparison-status
+[2017-12-21 12:14:10] [WARNING] [django.request] [PID:3761_140562948695808]--> Not Found: /favicon.ico

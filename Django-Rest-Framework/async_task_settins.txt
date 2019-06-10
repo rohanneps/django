@@ -1,0 +1,4 @@
+# To start the celery worker daemon
+# Navigate to root of project directory(location of manage.py), activate the virutalenv
+# celery worker -A rest_image_match_server.celery_settings -l info			--> async task handler, using reddis queue
+# flower -A rest_image_match_server --port=5555   --> to view error log of celery            --> monitor the queue and tasks

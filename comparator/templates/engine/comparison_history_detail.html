@@ -1,0 +1,111 @@
+{% extends 'base.html' %}
+{% load file_exists_tag %}
+
+
+{% if project_comparator %}
+
+
+{% block title %}
+    <title>
+        {{project_comparator}} History Details.
+    </title>
+{% endblock %}
+
+
+{% block content %}
+
+<body>
+
+<h3> Project : {{project_comparator.project}}</h3>
+            <br>
+             <table class="table table-striped table-bordered table-responsive" style="width: 70%">
+            <tr>
+            <td>Fields</td>
+            <td>Details</td>
+            </tr>
+            
+            <tr>
+            <td><b>Comparison Date</b></td>  
+            <td>{{project_comparator.start_time}}</td>
+            </tr>
+            <tr>
+            <td><b>User</td>
+            <td>{{project_comparator.user}}</td></td>
+            </tr>
+            <tr>
+            <td><b>Url file name</b></td>
+            <td>{% file_exists project_comparator.project_url_file project_comparator.project.project_name 'media' as url_file_exists %}
+                                                {% if url_file_exists %}
+                                                    <a href="{% url 'engine:file_download' project_name=project_comparator.project file_name=project_comparator.project_url_file file_dir='media' %}">{{project_comparator.project_url_file}}</a>
+                                                {% else %}
+                                                    {{project_comparator.project_url_file}}
+                                                    {{url_file_exists}}
+                                                {% endif %}
+
+            </td>
+            </tr>
+            <tr>
+            <td><b>Xpath file name</b></td>
+            <td>	{% file_exists project_comparator.project_xpath_file project_comparator.project.project_name 'media' as xpath_file_exists %}
+                                                {% if xpath_file_exists %}
+                                                    <a href="{% url 'engine:file_download' project_name=project_comparator.project file_name=project_comparator.project_xpath_file file_dir='media' %}">{{project_comparator.project_xpath_file}}</a>
+                                                {% else %}
+                                                    {{project_comparator.project_xpath_file}}
+                                                {% endif %}
+
+            </td>
+            </tr>
+            <tr>
+            <td><b>Platform file name</b></td>
+            <td>{% file_exists project_comparator.project_platform_import_file project_name 'media' as platform_file_exists %}
+                                                {% if platform_file_exists %}
+                                                    <a href="{% url 'engine:file_download' project_name=project_comparator.project file_name=project_comparator.project_platform_import_file file_dir='media' %}">{{project_comparator.project_platform_import_file}}</a>
+                                                {% else %}
+                                                    {{project_comparator.project_platform_import_file}}
+                                                {% endif %}
+
+            </td>
+            </tr>
+            <tr>
+            <td><b>Project status</b></td>
+            <td>{{project_comparator.project_status}}</td>
+            </tr>
+            <tr>
+            <td><b>Project run priority</b></td>
+            <td>{{project_comparator.comparison_type}}</td>
+            </tr>
+            <tr>
+            <td><b>Project Error Count</b></td>
+            <td>{{project_comparator.error_count}}</td>
+            </tr>
+            <tr>
+            <td><b>Project Scrapped File</b></td>
+            <td>{{project_comparator.project_scrapper_output_file}}</td>
+            </tr>
+            <tr>
+            <td><b>Project Report File</b></td>
+            <td>{{project_comparator.project_report_file}}</td>
+            </tr>
+            </table>
+
+            {% file_exists project_comparator.project_scrapper_output_file project_comparator.project.project_name 'output' as scrapped_file_exists %}
+                    {% if scrapped_file_exists %}
+
+            <a href="{% url 'engine:file_download' project_name=project_comparator.project file_name=project_comparator.project_scrapper_output_file file_dir='output' %}">Download Scrapped Details</a>
+            <br>
+            <br>
+            {% endif %}
+
+            {% file_exists project_comparator.project_report_file project_comparator.project.project_name 'output' as report_file_exists %}
+                    {% if report_file_exists %}
+            <a href="{% url 'engine:file_download' project_name=project_comparator.project file_name=project_comparator.project_report_file file_dir='output' %}">Download Comparator Report</a>
+            {% endif %}
+
+{% endblock %}
+{% else %}
+<h3> The comparison details isn't authorized for you. Please select from the following. </h3>
+<br>
+    <a href="{% url 'engine:comparison_list' %}"> List of Comparisons:</a>
+
+{% endif %}
+</body>

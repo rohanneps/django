@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    <title>
+        Comparison cannot be started now.
+    </title>
+{% endblock %}
+
+{% block content %}
+
+
+<body>
+<h3>Can't start comparison now, you have an existing comparison running. Please wait until the current comparison task is completed.</h3>
+<br>
+<h4> Check details below!! </h4>
+<h4><a href="{% url 'engine:comparison_list' %}">Comparison History</a></h4>
+</body>
+{% endblock %}

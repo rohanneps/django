@@ -1,0 +1,17 @@
+﻿field_name,xpath
+name,"//*[@id=""maincontent""]/div[2]/div/div[2]/div[1]/h1/span"
+price,"//*[@id=""maincontent""]/div[2]/div/div[2]/div[2]/div[2]/span/span/span"
+description|requires_html_tag,"//*[@id=""maincontent""]/div[2]/div/div[3]/div[1]/div/div/div[2]"
+Maker1,"//*[@id=""maincontent""]/div[2]/div/div[3]/div[3]/div[1]/div/div/div/div[1]"
+Maker2,"//*[@id=""maincontent""]/div[2]/div/div[3]/div[3]/div[2]/div/div/div/div[1]"
+Maker3,"//*[@id=""maincontent""]/div[2]/div/div[3]/div[3]/div[3]/div/div/div/div[1]"
+Maker4,"//*[@id=""maincontent""]/div[2]/div/div[3]/div[3]/div[4]/div/div/div/div[1]"
+base_image,"//*[@id=""maincontent""]/div[2]/div/div[1]/div/div[2]/div[2]/div[1]/div[3]/div[1]/img"
+Blade Length,//*[div = ' Blade Length:']/div[2]
+Overall Length,//*[div = ' Overall Length:']/div[2]
+Weight,//*[div = ' Weight:']/div[2]
+Source,//*[div = ' Source:']/div[2]
+Blade_Material,//*[div = ' Blade Material:']/div[2]
+Blade_Details,//*[div = ' Blade Details:']/div[2]
+Handle_Material,//*[div = ' Handle Material:']/div[2]
+Other_Details,//*[div = ' Other Details:']/div[2]

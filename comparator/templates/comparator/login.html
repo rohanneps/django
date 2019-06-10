@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    <title>
+        Login
+    </title>
+{% endblock %}
+
+{% block header %}
+    <nav class = "navbar navbar-default" role = "navigation">
+       <div class = "navbar-header">
+          <p style="margin-top: 15px; margin-left: 10px;">Welcome to GBD Comparator!</p>
+       </div>
+    </nav>
+{% endblock %}
+
+{% block content %}
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+                <h2 style="margin-left: 80px;">Login</h2>
+                <br/>
+                <form method="post">{% csrf_token %}
+                 {{ form.as_p }}
+                 <button type="submit" class="btn btn-primary">Login</button>
+                </form>
+            </div>
+        </div>
+    </div>
+{% endblock %}

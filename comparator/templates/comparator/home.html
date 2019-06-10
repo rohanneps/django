@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    <title>
+        GBD Comparator
+    </title>
+{% endblock %}
+
+
+{% block content %}
+    {% if user.is_authenticated %}
+        <div class="panel panel-info col-lg-5" style="margin-left: 28%;">
+            <div class="panel-heading" align="center" style="color:#000"><h4>Please select one of the following</h4></div>
+        <!-- <table class="table table-hover"> -->
+       <ul class="list-group">
+
+        <!-- <th>Please select one of the following</th> -->
+        
+                   <li class="list-group-item table table-hover"><h4><a href="{% url 'project:project_list' %}">Projects</a></h4></li>
+            <li class="list-group-item"><h4><a href="{% url 'engine:comparison_list' %}">Comparison History</a></h4></li>
+        </ul>
+        </div>
+    {% endif %}
+{% endblock %}
+

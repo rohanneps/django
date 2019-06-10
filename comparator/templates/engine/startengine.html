@@ -1,0 +1,95 @@
+{% extends 'base.html' %}
+{% load file_exists_tag %}
+
+{% block title %}
+    <title>
+        Comparison Detail
+    </title>
+{% endblock %}
+
+{% block content %}
+    {% if comparison_running %}
+
+        <h3>Can't start comparison now, you have an existing comparison running</h3>
+
+    {% else %}
+        {% if project_comparator %}
+{#            <span>Project Comparison Completed!</span> <br><br>#}
+            Comparator engine started by {{user}}  with ID: {{process_id}}
+            <br>
+            <h3> Project : {{project_comparator.0.project}}</h3>
+            <br>
+             <table class="table table-striped table-bordered table-responsive" style="width: 70%">
+            <tr>
+            <td>Fields</td>
+            <td>Details</td>
+            </tr>
+            
+            <tr>
+            <td><b>Comparison Date</b></td>  
+            <td>{{project_comparator.0.start_time}}</td>
+            </tr>
+            <tr>
+            <td><b>User</td>
+            <td>{{project_comparator.0.user}}</td></td>
+            </tr>
+            <tr>
+            <td><b>Url file name</b></td>
+            <td>{{project_comparator.0.project_url_file}}</td>
+            </tr>
+            <tr>
+            <td><b>Xpath file name</b></td>
+            <td>{{project_comparator.0.project_xpath_file}}</td>
+            </tr>
+            <tr>
+            <td><b>Platform file name</b></td>
+            <td>{{project_comparator.0.project_platform_import_file}}</td>
+            </tr>
+            <tr>
+            <td><b>Project status</b></td>
+            <td>{{project_comparator.0.project_status}}</td>
+            </tr>
+            <tr>
+            <td><b>Project run priority</b></td>
+            <td>{{project_comparator.0.comparison_type}}</td>
+            </tr>
+            <tr>
+            <td><b>Project Error Count</b></td>
+            <td>{{project_comparator.0.error_count}}</td>
+            </tr>
+            <tr>
+            <td><b>Project Scrapped File</b></td>
+            <td>{{project_comparator.0.project_scrapper_output_file}}</td>
+            </tr>
+            <tr>
+            <td><b>Project Report File</b></td>
+            <td>{{project_comparator.0.project_report_file}}</td>
+            </tr>
+            </table>
+
+            <span> 
+            {% file_exists project_comparator.0.project_scrapper_output_file project_comparator.0.project.project_name 'output' as scrapped_file_exists %}
+                    {% if scrapped_file_exists %}
+
+            <a href="{% url 'engine:file_download' project_name=project_comparator.0.project file_name=project_comparator.0.project_scrapper_output_file file_dir='output' %}">Download Scrapped Details</a>
+            <br>
+            <br>
+            {% endif %}
+
+            {% file_exists project_comparator.0.project_report_file project_comparator.0.project.project_name 'output' as report_file_exists %}
+                    {% if report_file_exists %}
+            <a href="{% url 'engine:file_download' project_name=project_comparator.0.project file_name=project_comparator.0.project_report_file file_dir='output' %}">Download Comparator Report</a>
+            {% endif %}
+            <hr> </span>
+
+
+
+        {% else %}
+            <h3> The comparison details doesn't exist. Please start comparison for one of the following projects</h3>
+            <br>
+            <h4><li><a href="{% url 'project:project_list' %}">Projects</a></li></h4>
+
+        {% endif %}
+
+    {% endif %}
+{% endblock %}

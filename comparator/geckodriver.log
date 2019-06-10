@@ -1,0 +1,836 @@
+1493876938865	geckodriver	INFO	Listening on 127.0.0.1:57069
+1493876939882	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.Io7yQKkcfcwf
+1493876939883	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1493876939915	geckodriver::marionette	INFO	Connecting to Marionette on localhost:33126
+1493876951990	Marionette	INFO	Listening on port 33126
+1493876952166	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://www.americanflags.com/usflagdogtag.html, line 77: TypeError: $.cookie is not a function
+JavaScript error: http://lib.store.yahoo.net/lib/yhst-45748600749679/ey-conversion-pixel.js, line 11: TypeError: $.cookie is not a function
+JavaScript error: https://www.google.com/_/scs/shopping-verified-reviews-static/_/js/k=boq-shopping-verified-reviews.VerifiedReviewsGcrBootstrapJs.en_US.tfYHWjVdI9M.O/m=bootstrap/rt=j/d=1/rs=AC8lLkTCv7nMl7jg7H7IjjL2aIN_P-tgwA, line 38: TypeError: window.document.body is null
+JavaScript error: http://www.americanflags.com/powmiadogtag.html, line 77: TypeError: $.cookie is not a function
+JavaScript error: http://lib.store.yahoo.net/lib/yhst-45748600749679/ey-conversion-pixel.js, line 11: TypeError: $.cookie is not a function
+1493877013604	Marionette	INFO	New connections will no longer be accepted
+1493877635636	geckodriver	INFO	Listening on 127.0.0.1:60824
+1493877636708	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.fddJjwgpYTCq
+1493877636709	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1493877636712	geckodriver::marionette	INFO	Connecting to Marionette on localhost:39394
+1493877642662	Marionette	INFO	Listening on port 39394
+1493877642852	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://www.americanflags.com/usflagdogtag.html, line 77: TypeError: $.cookie is not a function
+JavaScript error: http://lib.store.yahoo.net/lib/yhst-45748600749679/ey-conversion-pixel.js, line 11: TypeError: $.cookie is not a function
+JavaScript error: http://www.americanflags.com/powmiadogtag.html, line 77: TypeError: $.cookie is not a function
+JavaScript error: http://lib.store.yahoo.net/lib/yhst-45748600749679/ey-conversion-pixel.js, line 11: TypeError: $.cookie is not a function
+1493877695365	Marionette	INFO	New connections will no longer be accepted
+1493877859794	geckodriver	INFO	Listening on 127.0.0.1:41258
+1493877860858	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.3B49BXqjsHMA
+1493877860859	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1493877860862	geckodriver::marionette	INFO	Connecting to Marionette on localhost:39432
+1493877866284	Marionette	INFO	Listening on port 39432
+1493877866405	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://www.americanflags.com/usflagdogtag.html, line 77: TypeError: $.cookie is not a function
+JavaScript error: http://lib.store.yahoo.net/lib/yhst-45748600749679/ey-conversion-pixel.js, line 11: TypeError: $.cookie is not a function
+JavaScript error: https://www.google.com/_/scs/shopping-verified-reviews-static/_/js/k=boq-shopping-verified-reviews.VerifiedReviewsGcrBootstrapJs.en_US.tfYHWjVdI9M.O/m=bootstrap/rt=j/d=1/rs=AC8lLkTCv7nMl7jg7H7IjjL2aIN_P-tgwA, line 38: TypeError: window.document.body is null
+JavaScript error: http://www.americanflags.com/powmiadogtag.html, line 77: TypeError: $.cookie is not a function
+JavaScript error: http://lib.store.yahoo.net/lib/yhst-45748600749679/ey-conversion-pixel.js, line 11: TypeError: $.cookie is not a function
+1493877939605	Marionette	INFO	New connections will no longer be accepted
+[Child 10199] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-4Fdt0Z/firefox-53.0+build6/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 346
+1493878515686	geckodriver	INFO	Listening on 127.0.0.1:45682
+1493878516757	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.AeLknGquY2Ph
+1493878516758	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1493878516762	geckodriver::marionette	INFO	Connecting to Marionette on localhost:36403
+1493878522479	Marionette	INFO	Listening on port 36403
+1493878522604	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://www.americanflags.com/usflagdogtag.html, line 77: TypeError: $.cookie is not a function
+JavaScript error: http://lib.store.yahoo.net/lib/yhst-45748600749679/ey-conversion-pixel.js, line 11: TypeError: $.cookie is not a function
+JavaScript error: http://www.americanflags.com/powmiadogtag.html, line 77: TypeError: $.cookie is not a function
+JavaScript error: http://lib.store.yahoo.net/lib/yhst-45748600749679/ey-conversion-pixel.js, line 11: TypeError: $.cookie is not a function
+1493878586428	Marionette	INFO	New connections will no longer be accepted
+1493878984464	geckodriver	INFO	Listening on 127.0.0.1:38548
+1493878985532	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.vzRYlIYNIIqa
+1493878985534	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1493878985537	geckodriver::marionette	INFO	Connecting to Marionette on localhost:35752
+1493878991622	Marionette	INFO	Listening on port 35752
+1493878991863	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://www.americanflags.com/usflagdogtag.html, line 77: TypeError: $.cookie is not a function
+JavaScript error: http://lib.store.yahoo.net/lib/yhst-45748600749679/ey-conversion-pixel.js, line 11: TypeError: $.cookie is not a function
+JavaScript error: https://www.google.com/_/scs/shopping-verified-reviews-static/_/js/k=boq-shopping-verified-reviews.VerifiedReviewsGcrBootstrapJs.en_US.tfYHWjVdI9M.O/m=bootstrap/rt=j/d=1/rs=AC8lLkTCv7nMl7jg7H7IjjL2aIN_P-tgwA, line 38: TypeError: window.document.body is null
+JavaScript error: http://www.americanflags.com/powmiadogtag.html, line 77: TypeError: $.cookie is not a function
+JavaScript error: http://lib.store.yahoo.net/lib/yhst-45748600749679/ey-conversion-pixel.js, line 11: TypeError: $.cookie is not a function
+1493879035378	Marionette	INFO	New connections will no longer be accepted
+1493879162203	geckodriver	INFO	Listening on 127.0.0.1:50776
+1493879163271	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.8qiM3l8uKSNz
+1493879163273	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1493879163277	geckodriver::marionette	INFO	Connecting to Marionette on localhost:42112
+1493879169201	Marionette	INFO	Listening on port 42112
+1493879169421	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://www.americanflags.com/usflagdogtag.html, line 77: TypeError: $.cookie is not a function
+JavaScript error: http://lib.store.yahoo.net/lib/yhst-45748600749679/ey-conversion-pixel.js, line 11: TypeError: $.cookie is not a function
+JavaScript error: https://www.google.com/_/scs/shopping-verified-reviews-static/_/js/k=boq-shopping-verified-reviews.VerifiedReviewsGcrBootstrapJs.en_US.tfYHWjVdI9M.O/m=bootstrap/rt=j/d=1/rs=AC8lLkTCv7nMl7jg7H7IjjL2aIN_P-tgwA, line 38: TypeError: window.document.body is null
+JavaScript error: http://www.americanflags.com/powmiadogtag.html, line 77: TypeError: $.cookie is not a function
+JavaScript error: http://lib.store.yahoo.net/lib/yhst-45748600749679/ey-conversion-pixel.js, line 11: TypeError: $.cookie is not a function
+1493879201962	Marionette	INFO	New connections will no longer be accepted
+1493880196440	geckodriver	INFO	Listening on 127.0.0.1:45547
+1493880197512	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.DsNi25Er1kYp
+1493880197513	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1493880197516	geckodriver::marionette	INFO	Connecting to Marionette on localhost:44235
+1493880203268	Marionette	INFO	Listening on port 44235
+1493880204038	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://www.americanflags.com/usflagdogtag.html, line 77: TypeError: $.cookie is not a function
+JavaScript error: http://lib.store.yahoo.net/lib/yhst-45748600749679/ey-conversion-pixel.js, line 11: TypeError: $.cookie is not a function
+JavaScript error: https://www.google.com/_/scs/shopping-verified-reviews-static/_/js/k=boq-shopping-verified-reviews.VerifiedReviewsGcrBootstrapJs.en_US.tfYHWjVdI9M.O/m=bootstrap/rt=j/d=1/rs=AC8lLkTCv7nMl7jg7H7IjjL2aIN_P-tgwA, line 38: TypeError: window.document.body is null
+JavaScript error: http://www.americanflags.com/powmiadogtag.html, line 77: TypeError: $.cookie is not a function
+JavaScript error: http://lib.store.yahoo.net/lib/yhst-45748600749679/ey-conversion-pixel.js, line 11: TypeError: $.cookie is not a function
+1493880315944	Marionette	INFO	New connections will no longer be accepted
+1493880403132	geckodriver	INFO	Listening on 127.0.0.1:56359
+1493880404218	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.eiKKkutTmHN3
+1493880404220	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1493880404225	geckodriver::marionette	INFO	Connecting to Marionette on localhost:40154
+1493880410267	Marionette	INFO	Listening on port 40154
+1493880410486	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://www.americanflags.com/usflagdogtag.html, line 77: TypeError: $.cookie is not a function
+JavaScript error: http://lib.store.yahoo.net/lib/yhst-45748600749679/ey-conversion-pixel.js, line 11: TypeError: $.cookie is not a function
+JavaScript error: http://www.americanflags.com/powmiadogtag.html, line 77: TypeError: $.cookie is not a function
+JavaScript error: http://lib.store.yahoo.net/lib/yhst-45748600749679/ey-conversion-pixel.js, line 11: TypeError: $.cookie is not a function
+1493880455927	Marionette	INFO	New connections will no longer be accepted
+1493880534955	geckodriver	INFO	Listening on 127.0.0.1:43191
+1493880536028	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.YrFFFnA4CgNO
+1493880536029	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1493880536035	geckodriver::marionette	INFO	Connecting to Marionette on localhost:39985
+1493880541961	Marionette	INFO	Listening on port 39985
+1493880542145	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://www.americanflags.com/usflagdogtag.html, line 77: TypeError: $.cookie is not a function
+JavaScript error: http://lib.store.yahoo.net/lib/yhst-45748600749679/ey-conversion-pixel.js, line 11: TypeError: $.cookie is not a function
+JavaScript error: http://www.americanflags.com/powmiadogtag.html, line 77: TypeError: $.cookie is not a function
+JavaScript error: http://lib.store.yahoo.net/lib/yhst-45748600749679/ey-conversion-pixel.js, line 11: TypeError: $.cookie is not a function
+1493880575667	Marionette	INFO	New connections will no longer be accepted
+1493880674515	geckodriver	INFO	Listening on 127.0.0.1:50732
+1493880675586	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.PvaqUBNXnPDl
+1493880675587	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1493880675591	geckodriver::marionette	INFO	Connecting to Marionette on localhost:43860
+1493880681320	Marionette	INFO	Listening on port 43860
+1493880681465	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://www.americanflags.com/usflagdogtag.html, line 77: TypeError: $.cookie is not a function
+JavaScript error: http://lib.store.yahoo.net/lib/yhst-45748600749679/ey-conversion-pixel.js, line 11: TypeError: $.cookie is not a function
+JavaScript error: http://www.americanflags.com/powmiadogtag.html, line 77: TypeError: $.cookie is not a function
+JavaScript error: http://lib.store.yahoo.net/lib/yhst-45748600749679/ey-conversion-pixel.js, line 11: TypeError: $.cookie is not a function
+1493880708867	Marionette	INFO	New connections will no longer be accepted
+[Child 13233] WARNING: pipe error (17): Connection reset by peer: file /build/firefox-4Fdt0Z/firefox-53.0+build6/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1493885032213	geckodriver	INFO	Listening on 127.0.0.1:50184
+1493885033283	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.W8HWA03W2qEX
+1493885033284	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1493885033287	geckodriver::marionette	INFO	Connecting to Marionette on localhost:36329
+1493885039364	Marionette	INFO	Listening on port 36329
+1493885039589	Marionette	WARN	TLS certificate errors will be ignored for this session
+1493885072135	geckodriver	INFO	Listening on 127.0.0.1:58380
+1493885073204	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.m5VMyP326cwX
+1493885073206	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1493885073209	geckodriver::marionette	INFO	Connecting to Marionette on localhost:45044
+1493885079142	Marionette	INFO	Listening on port 45044
+1493885079329	Marionette	WARN	TLS certificate errors will be ignored for this session
+1493885227288	geckodriver	INFO	Listening on 127.0.0.1:56412
+1493885228364	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.wCH72TvHKYCS
+1493885228365	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1493885228369	geckodriver::marionette	INFO	Connecting to Marionette on localhost:44176
+1493885234768	Marionette	INFO	Listening on port 44176
+1493885235203	Marionette	WARN	TLS certificate errors will be ignored for this session
+1493885302673	geckodriver	INFO	Listening on 127.0.0.1:49569
+1493885303740	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.Fp0hPaejLXvH
+1493885303741	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1493885303745	geckodriver::marionette	INFO	Connecting to Marionette on localhost:41984
+1493885309883	Marionette	INFO	Listening on port 41984
+1493885310168	Marionette	WARN	TLS certificate errors will be ignored for this session
+1493885392714	geckodriver	INFO	Listening on 127.0.0.1:41073
+1493885393793	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.KpGBiCQhyd64
+1493885393794	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1493885393798	geckodriver::marionette	INFO	Connecting to Marionette on localhost:40391
+1493885399891	Marionette	INFO	Listening on port 40391
+1493885400015	Marionette	WARN	TLS certificate errors will be ignored for this session
+1493885536715	geckodriver	INFO	Listening on 127.0.0.1:49977
+1493885537793	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.0cnALz2CWlYJ
+1493885537794	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1493885537798	geckodriver::marionette	INFO	Connecting to Marionette on localhost:41001
+1493885544152	Marionette	INFO	Listening on port 41001
+1493885544276	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://www.americanflags.com/usflagdogtag.html, line 77: TypeError: $.cookie is not a function
+JavaScript error: http://lib.store.yahoo.net/lib/yhst-45748600749679/ey-conversion-pixel.js, line 11: TypeError: $.cookie is not a function
+JavaScript error: https://www.google.com/_/scs/shopping-verified-reviews-static/_/js/k=boq-shopping-verified-reviews.VerifiedReviewsGcrBootstrapJs.en_US.tfYHWjVdI9M.O/m=bootstrap/rt=j/d=1/rs=AC8lLkTCv7nMl7jg7H7IjjL2aIN_P-tgwA, line 38: TypeError: window.document.body is null
+JavaScript error: http://www.americanflags.com/powmiadogtag.html, line 77: TypeError: $.cookie is not a function
+JavaScript error: http://lib.store.yahoo.net/lib/yhst-45748600749679/ey-conversion-pixel.js, line 11: TypeError: $.cookie is not a function
+1493885606608	Marionette	INFO	New connections will no longer be accepted
+1493886045251	geckodriver	INFO	Listening on 127.0.0.1:58699
+1493886046317	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.OxJ06hDXJ33m
+1493886046318	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1493886046322	geckodriver::marionette	INFO	Connecting to Marionette on localhost:42910
+1493886051849	Marionette	INFO	Listening on port 42910
+1493886052028	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 16461] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-4Fdt0Z/firefox-53.0+build6/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 346
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4A0001,name=PCrashReporter::Msg_AnnotateCrashReport) Channel error: cannot send/recv
+
+Crash Annotation GraphicsCriticalError: |[C0][GFX1-]: Receive IPC close with reason=AbnormalShutdown (t=8.38394) 
+###!!! [Child][MessageChannel] Error: (msgtype=0x4400C6,name=PContent::Msg_GraphicsError) Channel error: cannot send/recv
+
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+1493886370770	geckodriver	INFO	Listening on 127.0.0.1:47020
+1493886371835	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.4fLYyIgy1Zbk
+1493886371836	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1493886371839	geckodriver::marionette	INFO	Connecting to Marionette on localhost:35602
+1493886377607	Marionette	INFO	Listening on port 35602
+1493886378306	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://www.americanflags.com/usflagdogtag.html, line 77: TypeError: $.cookie is not a function
+JavaScript error: http://lib.store.yahoo.net/lib/yhst-45748600749679/ey-conversion-pixel.js, line 11: TypeError: $.cookie is not a function
+JavaScript error: http://www.americanflags.com/powmiadogtag.html, line 77: TypeError: $.cookie is not a function
+JavaScript error: http://lib.store.yahoo.net/lib/yhst-45748600749679/ey-conversion-pixel.js, line 11: TypeError: $.cookie is not a function
+1493886433106	Marionette	INFO	New connections will no longer be accepted
+1493888813288	geckodriver	INFO	Listening on 127.0.0.1:44455
+1493888814362	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.eFWRKxpRrDuW
+1493888814364	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1493888814369	geckodriver::marionette	INFO	Connecting to Marionette on localhost:43045
+1493888820026	Marionette	INFO	Listening on port 43045
+1493888820217	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://www.americanflags.com/usflagdogtag.html, line 77: TypeError: $.cookie is not a function
+JavaScript error: http://lib.store.yahoo.net/lib/yhst-45748600749679/ey-conversion-pixel.js, line 11: TypeError: $.cookie is not a function
+JavaScript error: https://www.google.com/_/scs/shopping-verified-reviews-static/_/js/k=boq-shopping-verified-reviews.VerifiedReviewsGcrBootstrapJs.en_US.tfYHWjVdI9M.O/m=bootstrap/rt=j/d=1/rs=AC8lLkTCv7nMl7jg7H7IjjL2aIN_P-tgwA, line 38: TypeError: window.document.body is null
+JavaScript error: http://www.americanflags.com/powmiadogtag.html, line 77: TypeError: $.cookie is not a function
+JavaScript error: http://lib.store.yahoo.net/lib/yhst-45748600749679/ey-conversion-pixel.js, line 11: TypeError: $.cookie is not a function
+1493888859472	Marionette	INFO	New connections will no longer be accepted
+1493889394975	geckodriver	INFO	Listening on 127.0.0.1:53176
+1493889396066	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.ZxU9qyiD8DH8
+1493889396067	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1493889396069	geckodriver::marionette	INFO	Connecting to Marionette on localhost:45360
+1493889402300	Marionette	INFO	Listening on port 45360
+1493889402431	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://www.americanflags.com/usflagdogtag.html, line 77: TypeError: $.cookie is not a function
+JavaScript error: http://lib.store.yahoo.net/lib/yhst-45748600749679/ey-conversion-pixel.js, line 11: TypeError: $.cookie is not a function
+JavaScript error: https://www.google.com/_/scs/shopping-verified-reviews-static/_/js/k=boq-shopping-verified-reviews.VerifiedReviewsGcrBootstrapJs.en_US.tfYHWjVdI9M.O/m=bootstrap/rt=j/d=1/rs=AC8lLkTCv7nMl7jg7H7IjjL2aIN_P-tgwA, line 38: TypeError: window.document.body is null
+JavaScript error: http://www.americanflags.com/powmiadogtag.html, line 77: TypeError: $.cookie is not a function
+JavaScript error: http://lib.store.yahoo.net/lib/yhst-45748600749679/ey-conversion-pixel.js, line 11: TypeError: $.cookie is not a function
+1493889458454	Marionette	INFO	New connections will no longer be accepted
+1493890646975	geckodriver	INFO	Listening on 127.0.0.1:40316
+1493890648048	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.xztUmBaqDU2f
+1493890648049	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1493890648053	geckodriver::marionette	INFO	Connecting to Marionette on localhost:33902
+1493890655974	Marionette	INFO	Listening on port 33902
+1493890656107	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://www.americanflags.com/usflagdogtag.html, line 77: TypeError: $.cookie is not a function
+JavaScript error: http://lib.store.yahoo.net/lib/yhst-45748600749679/ey-conversion-pixel.js, line 11: TypeError: $.cookie is not a function
+JavaScript error: http://www.americanflags.com/powmiadogtag.html, line 77: TypeError: $.cookie is not a function
+JavaScript error: http://lib.store.yahoo.net/lib/yhst-45748600749679/ey-conversion-pixel.js, line 11: TypeError: $.cookie is not a function
+1493890698416	Marionette	INFO	New connections will no longer be accepted
+1493891720858	geckodriver	INFO	Listening on 127.0.0.1:58170
+1493891721919	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.XZwMDGXH3Khm
+1493891721920	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1493891721925	geckodriver::marionette	INFO	Connecting to Marionette on localhost:34175
+1493891728872	Marionette	INFO	Listening on port 34175
+1493891729176	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://www.americanflags.com/usflagdogtag.html, line 77: TypeError: $.cookie is not a function
+JavaScript error: http://lib.store.yahoo.net/lib/yhst-45748600749679/ey-conversion-pixel.js, line 11: TypeError: $.cookie is not a function
+JavaScript error: https://www.google.com/_/scs/shopping-verified-reviews-static/_/js/k=boq-shopping-verified-reviews.VerifiedReviewsGcrBootstrapJs.en_US.tfYHWjVdI9M.O/m=bootstrap/rt=j/d=1/rs=AC8lLkTCv7nMl7jg7H7IjjL2aIN_P-tgwA, line 38: TypeError: window.document.body is null
+JavaScript error: http://www.americanflags.com/powmiadogtag.html, line 77: TypeError: $.cookie is not a function
+JavaScript error: http://lib.store.yahoo.net/lib/yhst-45748600749679/ey-conversion-pixel.js, line 11: TypeError: $.cookie is not a function
+1493891907596	geckodriver	INFO	Listening on 127.0.0.1:48630
+1493891908664	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.BTmjVYAep4a8
+1493891908665	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1493891908668	geckodriver::marionette	INFO	Connecting to Marionette on localhost:43026
+1493891915273	Marionette	INFO	Listening on port 43026
+1493891915470	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://www.americanflags.com/usflagdogtag.html, line 77: TypeError: $.cookie is not a function
+JavaScript error: http://lib.store.yahoo.net/lib/yhst-45748600749679/ey-conversion-pixel.js, line 11: TypeError: $.cookie is not a function
+JavaScript error: http://www.americanflags.com/powmiadogtag.html, line 77: TypeError: $.cookie is not a function
+JavaScript error: http://lib.store.yahoo.net/lib/yhst-45748600749679/ey-conversion-pixel.js, line 11: TypeError: $.cookie is not a function
+1493891959590	Marionette	INFO	New connections will no longer be accepted
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: NetworkError when attempting to fetch resource.
+Full stack: 
+*************************
+1493896128574	geckodriver	INFO	Listening on 127.0.0.1:39852
+1493896129651	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.T4PyvD9WeT4z
+1493896129652	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1493896129687	geckodriver::marionette	INFO	Connecting to Marionette on localhost:44934
+1493896135713	Marionette	INFO	Listening on port 44934
+1493896135905	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://www.americanflags.com/usflagdogtag.html, line 77: TypeError: $.cookie is not a function
+JavaScript error: http://lib.store.yahoo.net/lib/yhst-45748600749679/ey-conversion-pixel.js, line 11: TypeError: $.cookie is not a function
+JavaScript error: https://www.google.com/_/scs/shopping-verified-reviews-static/_/js/k=boq-shopping-verified-reviews.VerifiedReviewsGcrBootstrapJs.en_US.tfYHWjVdI9M.O/m=bootstrap/rt=j/d=1/rs=AC8lLkTCv7nMl7jg7H7IjjL2aIN_P-tgwA, line 38: TypeError: window.document.body is null
+JavaScript error: http://www.americanflags.com/powmiadogtag.html, line 77: TypeError: $.cookie is not a function
+JavaScript error: http://lib.store.yahoo.net/lib/yhst-45748600749679/ey-conversion-pixel.js, line 11: TypeError: $.cookie is not a function
+1493896197312	Marionette	INFO	New connections will no longer be accepted
+[Child 23585] WARNING: pipe error (18): Connection reset by peer: file /build/firefox-4Fdt0Z/firefox-53.0+build6/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 346
+[Child 23585] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-4Fdt0Z/firefox-53.0+build6/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 346
+1493899242975	geckodriver	INFO	Listening on 127.0.0.1:50116
+1493899244045	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.QPH4HYojDhmQ
+1493899244046	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1493899244050	geckodriver::marionette	INFO	Connecting to Marionette on localhost:38555
+1493899250171	Marionette	INFO	Listening on port 38555
+1493899250415	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://e277b3d85f945096c6be-de29be65e24cc08c461d2e918be5184a.r34.cf2.rackcdn.com/gate.js, line 42: ReferenceError: google_tag_manager is not defined
+JavaScript error: http://www.americanflags.com/usflagdogtag.html, line 77: TypeError: $.cookie is not a function
+JavaScript error: http://lib.store.yahoo.net/lib/yhst-45748600749679/ey-conversion-pixel.js, line 11: TypeError: $.cookie is not a function
+JavaScript error: http://e277b3d85f945096c6be-de29be65e24cc08c461d2e918be5184a.r34.cf2.rackcdn.com/gate.js, line 42: ReferenceError: google_tag_manager is not defined
+JavaScript error: https://www.google.com/_/scs/shopping-verified-reviews-static/_/js/k=boq-shopping-verified-reviews.VerifiedReviewsGcrBootstrapJs.en_US.tfYHWjVdI9M.O/m=bootstrap/rt=j/d=1/rs=AC8lLkTCv7nMl7jg7H7IjjL2aIN_P-tgwA, line 38: TypeError: window.document.body is null
+JavaScript error: http://www.americanflags.com/powmiadogtag.html, line 77: TypeError: $.cookie is not a function
+JavaScript error: http://lib.store.yahoo.net/lib/yhst-45748600749679/ey-conversion-pixel.js, line 11: TypeError: $.cookie is not a function
+1493899307503	Marionette	INFO	New connections will no longer be accepted
+[Child 25740] WARNING: pipe error (18): Connection reset by peer: file /build/firefox-4Fdt0Z/firefox-53.0+build6/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 346
+1494240579895	geckodriver	INFO	Listening on 127.0.0.1:39771
+1494240580974	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.k5vsvnlN1JBY
+1494240580975	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1494240580981	geckodriver::marionette	INFO	Connecting to Marionette on localhost:39959
+1494240587018	Marionette	INFO	Listening on port 39959
+1494240587269	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.religiousgiftwarehouse.com/js/varien/product.js, line 485: unreachable code after return statement
+JavaScript warning: http://www.religiousgiftwarehouse.com/js/arw/ajaxcart/configurable.js, line 291: unreachable code after return statement
+JavaScript warning: http://www.religiousgiftwarehouse.com/js/varien/configurable.js, line 291: unreachable code after return statement
+JavaScript warning: http://www.religiousgiftwarehouse.com/js/calendar/calendar.js, line 138: unreachable code after return statement
+JavaScript warning: http://www.religiousgiftwarehouse.com/js/varien/product.js, line 485: unreachable code after return statement
+JavaScript warning: http://www.religiousgiftwarehouse.com/js/arw/ajaxcart/configurable.js, line 291: unreachable code after return statement
+JavaScript warning: http://www.religiousgiftwarehouse.com/js/varien/configurable.js, line 291: unreachable code after return statement
+JavaScript warning: http://www.religiousgiftwarehouse.com/js/calendar/calendar.js, line 138: unreachable code after return statement
+JavaScript warning: http://www.religiousgiftwarehouse.com/js/varien/product.js, line 485: unreachable code after return statement
+JavaScript warning: http://www.religiousgiftwarehouse.com/js/arw/ajaxcart/configurable.js, line 291: unreachable code after return statement
+JavaScript warning: http://www.religiousgiftwarehouse.com/js/varien/configurable.js, line 291: unreachable code after return statement
+JavaScript warning: http://www.religiousgiftwarehouse.com/js/calendar/calendar.js, line 138: unreachable code after return statement
+1494240632235	Marionette	INFO	New connections will no longer be accepted
+[Child 17650] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-4Fdt0Z/firefox-53.0+build6/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 346
+1494307578532	geckodriver	INFO	Listening on 127.0.0.1:44920
+1494307579602	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.fWZrtnElMt03
+1494307579603	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1494307579606	geckodriver::marionette	INFO	Connecting to Marionette on localhost:35548
+1494307584753	Marionette	INFO	Listening on port 35548
+1494307584931	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.religiousgiftwarehouse.com/js/varien/product.js, line 485: unreachable code after return statement
+JavaScript warning: http://www.religiousgiftwarehouse.com/js/arw/ajaxcart/configurable.js, line 291: unreachable code after return statement
+JavaScript warning: http://www.religiousgiftwarehouse.com/js/varien/configurable.js, line 291: unreachable code after return statement
+JavaScript warning: http://www.religiousgiftwarehouse.com/js/calendar/calendar.js, line 138: unreachable code after return statement
+JavaScript warning: http://www.religiousgiftwarehouse.com/js/varien/product.js, line 485: unreachable code after return statement
+JavaScript warning: http://www.religiousgiftwarehouse.com/js/arw/ajaxcart/configurable.js, line 291: unreachable code after return statement
+JavaScript warning: http://www.religiousgiftwarehouse.com/js/varien/configurable.js, line 291: unreachable code after return statement
+JavaScript warning: http://www.religiousgiftwarehouse.com/js/calendar/calendar.js, line 138: unreachable code after return statement
+JavaScript warning: http://www.religiousgiftwarehouse.com/js/varien/product.js, line 485: unreachable code after return statement
+JavaScript warning: http://www.religiousgiftwarehouse.com/js/arw/ajaxcart/configurable.js, line 291: unreachable code after return statement
+JavaScript warning: http://www.religiousgiftwarehouse.com/js/varien/configurable.js, line 291: unreachable code after return statement
+JavaScript warning: http://www.religiousgiftwarehouse.com/js/calendar/calendar.js, line 138: unreachable code after return statement
+1494307643918	Marionette	INFO	New connections will no longer be accepted
+[Child 8406] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-4Fdt0Z/firefox-53.0+build6/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 346
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+1494320145952	geckodriver	INFO	Listening on 127.0.0.1:39581
+1494320147035	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.ADtAD7SjvxNX
+1494320147036	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1494320147068	geckodriver::marionette	INFO	Connecting to Marionette on localhost:33293
+
+(firefox:19065): GConf-WARNING **: Client failed to connect to the D-BUS daemon:
+Failed to connect to socket /tmp/dbus-SbU8K7gTrd: Connection refused
+
+(firefox:19065): GLib-GIO-CRITICAL **: g_dbus_connection_register_object: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:19065): GLib-GIO-CRITICAL **: g_dbus_connection_register_object: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:19065): GLib-GIO-CRITICAL **: g_dbus_connection_get_unique_name: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:19065): GLib-GIO-CRITICAL **: g_dbus_connection_register_object: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:19065): GLib-GIO-CRITICAL **: g_dbus_connection_register_object: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:19065): GLib-GIO-CRITICAL **: g_dbus_connection_get_unique_name: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:19065): GConf-WARNING **: Client failed to connect to the D-BUS daemon:
+Failed to connect to socket /tmp/dbus-SbU8K7gTrd: Connection refused
+
+(firefox:19065): LIBDBUSMENU-GLIB-WARNING **: Unable to get session bus: Could not connect: Connection refused
+1494320160605	Marionette	INFO	Listening on port 33293
+
+(firefox:19065): GConf-WARNING **: Client failed to connect to the D-BUS daemon:
+Failed to connect to socket /tmp/dbus-SbU8K7gTrd: Connection refused
+1494320160827	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4A0001,name=PCrashReporter::Msg_AnnotateCrashReport) Channel error: cannot send/recv
+
+Crash Annotation GraphicsCriticalError: |[C0][GFX1-]: Receive IPC close with reason=AbnormalShutdown (t=3.98011) 
+###!!! [Child][MessageChannel] Error: (msgtype=0x4400C6,name=PContent::Msg_GraphicsError) Channel error: cannot send/recv
+
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+1494320316602	geckodriver	INFO	Listening on 127.0.0.1:33209
+1494320317675	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.FjPGKaOXFRkM
+1494320317676	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1494320317679	geckodriver::marionette	INFO	Connecting to Marionette on localhost:34757
+
+(firefox:19474): GConf-WARNING **: Client failed to connect to the D-BUS daemon:
+Failed to connect to socket /tmp/dbus-SbU8K7gTrd: Connection refused
+
+(firefox:19474): GLib-GIO-CRITICAL **: g_dbus_connection_register_object: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:19474): GLib-GIO-CRITICAL **: g_dbus_connection_register_object: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:19474): GLib-GIO-CRITICAL **: g_dbus_connection_get_unique_name: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:19474): GLib-GIO-CRITICAL **: g_dbus_connection_register_object: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:19474): GLib-GIO-CRITICAL **: g_dbus_connection_register_object: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:19474): GLib-GIO-CRITICAL **: g_dbus_connection_get_unique_name: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:19474): GConf-WARNING **: Client failed to connect to the D-BUS daemon:
+Failed to connect to socket /tmp/dbus-SbU8K7gTrd: Connection refused
+
+(firefox:19474): LIBDBUSMENU-GLIB-WARNING **: Unable to get session bus: Could not connect: Connection refused
+1494320323235	Marionette	INFO	Listening on port 34757
+
+(firefox:19474): GConf-WARNING **: Client failed to connect to the D-BUS daemon:
+Failed to connect to socket /tmp/dbus-SbU8K7gTrd: Connection refused
+1494320323402	Marionette	WARN	TLS certificate errors will be ignored for this session
+1494320947510	geckodriver	INFO	Listening on 127.0.0.1:37911
+1494320948582	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.YxO8IRSPRHbH
+1494320948583	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1494320948586	geckodriver::marionette	INFO	Connecting to Marionette on localhost:37226
+
+(firefox:20541): GConf-WARNING **: Client failed to connect to the D-BUS daemon:
+Failed to connect to socket /tmp/dbus-SbU8K7gTrd: Connection refused
+
+(firefox:20541): GLib-GIO-CRITICAL **: g_dbus_connection_register_object: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:20541): GLib-GIO-CRITICAL **: g_dbus_connection_register_object: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:20541): GLib-GIO-CRITICAL **: g_dbus_connection_get_unique_name: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:20541): GLib-GIO-CRITICAL **: g_dbus_connection_register_object: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:20541): GLib-GIO-CRITICAL **: g_dbus_connection_register_object: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:20541): GLib-GIO-CRITICAL **: g_dbus_connection_get_unique_name: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:20541): GConf-WARNING **: Client failed to connect to the D-BUS daemon:
+Failed to connect to socket /tmp/dbus-SbU8K7gTrd: Connection refused
+
+(firefox:20541): LIBDBUSMENU-GLIB-WARNING **: Unable to get session bus: Could not connect: Connection refused
+1494320953881	Marionette	INFO	Listening on port 37226
+
+(firefox:20541): GConf-WARNING **: Client failed to connect to the D-BUS daemon:
+Failed to connect to socket /tmp/dbus-SbU8K7gTrd: Connection refused
+1494320954027	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.religiousgiftwarehouse.com/js/varien/product.js, line 485: unreachable code after return statement
+JavaScript warning: http://www.religiousgiftwarehouse.com/js/arw/ajaxcart/configurable.js, line 291: unreachable code after return statement
+JavaScript warning: http://www.religiousgiftwarehouse.com/js/varien/configurable.js, line 291: unreachable code after return statement
+JavaScript warning: http://www.religiousgiftwarehouse.com/js/calendar/calendar.js, line 138: unreachable code after return statement
+JavaScript warning: http://www.religiousgiftwarehouse.com/js/varien/product.js, line 485: unreachable code after return statement
+JavaScript warning: http://www.religiousgiftwarehouse.com/js/arw/ajaxcart/configurable.js, line 291: unreachable code after return statement
+JavaScript warning: http://www.religiousgiftwarehouse.com/js/varien/configurable.js, line 291: unreachable code after return statement
+JavaScript warning: http://www.religiousgiftwarehouse.com/js/calendar/calendar.js, line 138: unreachable code after return statement
+JavaScript warning: http://www.religiousgiftwarehouse.com/js/varien/product.js, line 485: unreachable code after return statement
+JavaScript warning: http://www.religiousgiftwarehouse.com/js/arw/ajaxcart/configurable.js, line 291: unreachable code after return statement
+JavaScript warning: http://www.religiousgiftwarehouse.com/js/varien/configurable.js, line 291: unreachable code after return statement
+JavaScript warning: http://www.religiousgiftwarehouse.com/js/calendar/calendar.js, line 138: unreachable code after return statement
+1494320998781	Marionette	INFO	New connections will no longer be accepted
+1494322561637	geckodriver	INFO	Listening on 127.0.0.1:48648
+1494322562709	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.pOdoYKTPfOCf
+1494322562710	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1494322562713	geckodriver::marionette	INFO	Connecting to Marionette on localhost:37293
+
+(firefox:22029): GConf-WARNING **: Client failed to connect to the D-BUS daemon:
+Failed to connect to socket /tmp/dbus-SbU8K7gTrd: Connection refused
+
+(firefox:22029): GLib-GIO-CRITICAL **: g_dbus_connection_register_object: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:22029): GLib-GIO-CRITICAL **: g_dbus_connection_register_object: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:22029): GLib-GIO-CRITICAL **: g_dbus_connection_get_unique_name: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:22029): GLib-GIO-CRITICAL **: g_dbus_connection_register_object: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:22029): GLib-GIO-CRITICAL **: g_dbus_connection_register_object: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:22029): GLib-GIO-CRITICAL **: g_dbus_connection_get_unique_name: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:22029): GConf-WARNING **: Client failed to connect to the D-BUS daemon:
+Failed to connect to socket /tmp/dbus-SbU8K7gTrd: Connection refused
+
+(firefox:22029): LIBDBUSMENU-GLIB-WARNING **: Unable to get session bus: Could not connect: Connection refused
+
+(firefox:22029): GConf-WARNING **: Client failed to connect to the D-BUS daemon:
+Failed to connect to socket /tmp/dbus-SbU8K7gTrd: Connection refused
+1494322568275	Marionette	INFO	Listening on port 37293
+
+(firefox:22029): GConf-WARNING **: Client failed to connect to the D-BUS daemon:
+Failed to connect to socket /tmp/dbus-SbU8K7gTrd: Connection refused
+1494322568354	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:22029): GLib-GIO-CRITICAL **: g_dbus_connection_register_object: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:22029): GLib-GIO-CRITICAL **: g_dbus_connection_register_object: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:22029): GLib-GIO-CRITICAL **: g_dbus_connection_get_unique_name: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+JavaScript warning: http://www.religiousgiftwarehouse.com/js/varien/product.js, line 485: unreachable code after return statement
+JavaScript warning: http://www.religiousgiftwarehouse.com/js/arw/ajaxcart/configurable.js, line 291: unreachable code after return statement
+JavaScript warning: http://www.religiousgiftwarehouse.com/js/varien/configurable.js, line 291: unreachable code after return statement
+JavaScript warning: http://www.religiousgiftwarehouse.com/js/calendar/calendar.js, line 138: unreachable code after return statement
+
+(firefox:22029): GConf-WARNING **: Client failed to connect to the D-BUS daemon:
+Failed to connect to socket /tmp/dbus-SbU8K7gTrd: Connection refused
+JavaScript warning: http://www.religiousgiftwarehouse.com/js/varien/product.js, line 485: unreachable code after return statement
+JavaScript warning: http://www.religiousgiftwarehouse.com/js/arw/ajaxcart/configurable.js, line 291: unreachable code after return statement
+JavaScript warning: http://www.religiousgiftwarehouse.com/js/varien/configurable.js, line 291: unreachable code after return statement
+JavaScript warning: http://www.religiousgiftwarehouse.com/js/calendar/calendar.js, line 138: unreachable code after return statement
+JavaScript warning: http://www.religiousgiftwarehouse.com/js/varien/product.js, line 485: unreachable code after return statement
+JavaScript warning: http://www.religiousgiftwarehouse.com/js/arw/ajaxcart/configurable.js, line 291: unreachable code after return statement
+JavaScript warning: http://www.religiousgiftwarehouse.com/js/varien/configurable.js, line 291: unreachable code after return statement
+JavaScript warning: http://www.religiousgiftwarehouse.com/js/calendar/calendar.js, line 138: unreachable code after return statement
+1494322633478	Marionette	INFO	New connections will no longer be accepted
+[Child 22106] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-4Fdt0Z/firefox-53.0+build6/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 346
+1494322699188	geckodriver	INFO	Listening on 127.0.0.1:55114
+1494322700257	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.FCAhNXV1Z4Ta
+1494322700258	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1494322700262	geckodriver::marionette	INFO	Connecting to Marionette on localhost:46083
+
+(firefox:22282): GConf-WARNING **: Client failed to connect to the D-BUS daemon:
+Failed to connect to socket /tmp/dbus-SbU8K7gTrd: Connection refused
+
+(firefox:22282): GLib-GIO-CRITICAL **: g_dbus_connection_register_object: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:22282): GLib-GIO-CRITICAL **: g_dbus_connection_register_object: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:22282): GLib-GIO-CRITICAL **: g_dbus_connection_get_unique_name: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:22282): GLib-GIO-CRITICAL **: g_dbus_connection_register_object: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:22282): GLib-GIO-CRITICAL **: g_dbus_connection_register_object: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:22282): GLib-GIO-CRITICAL **: g_dbus_connection_get_unique_name: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:22282): GConf-WARNING **: Client failed to connect to the D-BUS daemon:
+Failed to connect to socket /tmp/dbus-SbU8K7gTrd: Connection refused
+
+(firefox:22282): LIBDBUSMENU-GLIB-WARNING **: Unable to get session bus: Could not connect: Connection refused
+1494322705970	Marionette	INFO	Listening on port 46083
+
+(firefox:22282): GConf-WARNING **: Client failed to connect to the D-BUS daemon:
+Failed to connect to socket /tmp/dbus-SbU8K7gTrd: Connection refused
+1494322706214	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.religiousgiftwarehouse.com/js/varien/product.js, line 485: unreachable code after return statement
+JavaScript warning: http://www.religiousgiftwarehouse.com/js/arw/ajaxcart/configurable.js, line 291: unreachable code after return statement
+JavaScript warning: http://www.religiousgiftwarehouse.com/js/varien/configurable.js, line 291: unreachable code after return statement
+JavaScript warning: http://www.religiousgiftwarehouse.com/js/calendar/calendar.js, line 138: unreachable code after return statement
+
+(firefox:22282): GConf-WARNING **: Client failed to connect to the D-BUS daemon:
+Failed to connect to socket /tmp/dbus-SbU8K7gTrd: Connection refused
+JavaScript warning: http://www.religiousgiftwarehouse.com/js/varien/product.js, line 485: unreachable code after return statement
+JavaScript warning: http://www.religiousgiftwarehouse.com/js/arw/ajaxcart/configurable.js, line 291: unreachable code after return statement
+JavaScript warning: http://www.religiousgiftwarehouse.com/js/varien/configurable.js, line 291: unreachable code after return statement
+JavaScript warning: http://www.religiousgiftwarehouse.com/js/calendar/calendar.js, line 138: unreachable code after return statement
+JavaScript warning: http://www.religiousgiftwarehouse.com/js/varien/product.js, line 485: unreachable code after return statement
+JavaScript warning: http://www.religiousgiftwarehouse.com/js/arw/ajaxcart/configurable.js, line 291: unreachable code after return statement
+JavaScript warning: http://www.religiousgiftwarehouse.com/js/varien/configurable.js, line 291: unreachable code after return statement
+JavaScript warning: http://www.religiousgiftwarehouse.com/js/calendar/calendar.js, line 138: unreachable code after return statement
+1494322981773	Marionette	INFO	New connections will no longer be accepted
+[Child 22362] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-4Fdt0Z/firefox-53.0+build6/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 346
+1494325008573	geckodriver	INFO	Listening on 127.0.0.1:57463
+1494325009641	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.uSgHiEs4LEhq
+1494325009642	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1494325009644	geckodriver::marionette	INFO	Connecting to Marionette on localhost:45898
+
+(firefox:23253): GConf-WARNING **: Client failed to connect to the D-BUS daemon:
+Failed to connect to socket /tmp/dbus-SbU8K7gTrd: Connection refused
+
+(firefox:23253): GLib-GIO-CRITICAL **: g_dbus_connection_register_object: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:23253): GLib-GIO-CRITICAL **: g_dbus_connection_register_object: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:23253): GLib-GIO-CRITICAL **: g_dbus_connection_get_unique_name: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:23253): GLib-GIO-CRITICAL **: g_dbus_connection_register_object: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:23253): GLib-GIO-CRITICAL **: g_dbus_connection_register_object: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:23253): GLib-GIO-CRITICAL **: g_dbus_connection_get_unique_name: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:23253): GConf-WARNING **: Client failed to connect to the D-BUS daemon:
+Failed to connect to socket /tmp/dbus-SbU8K7gTrd: Connection refused
+
+(firefox:23253): LIBDBUSMENU-GLIB-WARNING **: Unable to get session bus: Could not connect: Connection refused
+
+(firefox:23253): GConf-WARNING **: Client failed to connect to the D-BUS daemon:
+Failed to connect to socket /tmp/dbus-SbU8K7gTrd: Connection refused
+1494325015051	Marionette	INFO	Listening on port 45898
+
+(firefox:23253): GConf-WARNING **: Client failed to connect to the D-BUS daemon:
+Failed to connect to socket /tmp/dbus-SbU8K7gTrd: Connection refused
+1494325015274	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:23253): GLib-GIO-CRITICAL **: g_dbus_connection_register_object: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:23253): GLib-GIO-CRITICAL **: g_dbus_connection_register_object: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(firefox:23253): GLib-GIO-CRITICAL **: g_dbus_connection_get_unique_name: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+JavaScript warning: http://www.religiousgiftwarehouse.com/js/varien/product.js, line 485: unreachable code after return statement
+JavaScript warning: http://www.religiousgiftwarehouse.com/js/arw/ajaxcart/configurable.js, line 291: unreachable code after return statement
+JavaScript warning: http://www.religiousgiftwarehouse.com/js/varien/configurable.js, line 291: unreachable code after return statement
+JavaScript warning: http://www.religiousgiftwarehouse.com/js/calendar/calendar.js, line 138: unreachable code after return statement
+JavaScript warning: http://www.religiousgiftwarehouse.com/js/varien/product.js, line 485: unreachable code after return statement
+JavaScript warning: http://www.religiousgiftwarehouse.com/js/arw/ajaxcart/configurable.js, line 291: unreachable code after return statement
+JavaScript warning: http://www.religiousgiftwarehouse.com/js/varien/configurable.js, line 291: unreachable code after return statement
+JavaScript warning: http://www.religiousgiftwarehouse.com/js/calendar/calendar.js, line 138: unreachable code after return statement
+
+(firefox:23253): GConf-WARNING **: Client failed to connect to the D-BUS daemon:
+Failed to connect to socket /tmp/dbus-SbU8K7gTrd: Connection refused
+JavaScript warning: http://www.religiousgiftwarehouse.com/js/varien/product.js, line 485: unreachable code after return statement
+JavaScript warning: http://www.religiousgiftwarehouse.com/js/arw/ajaxcart/configurable.js, line 291: unreachable code after return statement
+JavaScript warning: http://www.religiousgiftwarehouse.com/js/varien/configurable.js, line 291: unreachable code after return statement
+JavaScript warning: http://www.religiousgiftwarehouse.com/js/calendar/calendar.js, line 138: unreachable code after return statement
+1494325065691	Marionette	INFO	New connections will no longer be accepted
+[Child 23325] WARNING: pipe error (15): Connection reset by peer: file /build/firefox-4Fdt0Z/firefox-53.0+build6/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 346
+[Child 23325] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-4Fdt0Z/firefox-53.0+build6/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 346
+1494499207648	geckodriver	INFO	Listening on 127.0.0.1:33444
+1494499208713	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.9qgIGy9mKz9S
+1494499208715	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1494499208724	geckodriver::marionette	INFO	Connecting to Marionette on localhost:43885
+1494499214990	Marionette	INFO	Listening on port 43885
+1494499215252	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.religiousgiftwarehouse.com/js/varien/product.js, line 485: unreachable code after return statement
+JavaScript warning: http://www.religiousgiftwarehouse.com/js/arw/ajaxcart/configurable.js, line 291: unreachable code after return statement
+JavaScript warning: http://www.religiousgiftwarehouse.com/js/varien/configurable.js, line 291: unreachable code after return statement
+JavaScript warning: http://www.religiousgiftwarehouse.com/js/calendar/calendar.js, line 138: unreachable code after return statement
+1494499284646	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1494499473253	Marionette	INFO	New connections will no longer be accepted
+[Child 25830] WARNING: pipe error (18): Connection reset by peer: file /build/firefox-4Fdt0Z/firefox-53.0+build6/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 346
+[Child 25830] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-4Fdt0Z/firefox-53.0+build6/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 346
+1494503683603	geckodriver	INFO	Listening on 127.0.0.1:44069
+1494503684673	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.iBVI0or56WcJ
+1494503684675	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1494503684679	geckodriver::marionette	INFO	Connecting to Marionette on localhost:44174
+1494503691673	Marionette	INFO	Listening on port 44174
+1494503691891	Marionette	WARN	TLS certificate errors will be ignored for this session
+1494503712110	Marionette	INFO	New connections will no longer be accepted
+1494503763241	geckodriver	INFO	Listening on 127.0.0.1:34867
+1494503764310	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.uapHy1GvIDZo
+1494503764311	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1494503764314	geckodriver::marionette	INFO	Connecting to Marionette on localhost:34232
+1494503770039	Marionette	INFO	Listening on port 34232
+1494503770306	Marionette	WARN	TLS certificate errors will be ignored for this session
+1494503792268	Marionette	INFO	New connections will no longer be accepted
+1494503869905	geckodriver	INFO	Listening on 127.0.0.1:39142
+1494503870998	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.DpWDZ2CWx2Q0
+1494503871000	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1494503871006	geckodriver::marionette	INFO	Connecting to Marionette on localhost:40280
+1494503877274	Marionette	INFO	Listening on port 40280
+1494503877478	Marionette	WARN	TLS certificate errors will be ignored for this session
+1494503899913	Marionette	INFO	New connections will no longer be accepted
+1494836941461	geckodriver	INFO	Listening on 127.0.0.1:37644
+1494836942531	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.RX5AkSyZfi1Z
+1494836942532	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1494836942535	geckodriver::marionette	INFO	Connecting to Marionette on localhost:45618
+1494836948280	Marionette	INFO	Listening on port 45618
+1494836948402	Marionette	WARN	TLS certificate errors will be ignored for this session
+1494836974283	Marionette	INFO	New connections will no longer be accepted
+1494837063364	geckodriver	INFO	Listening on 127.0.0.1:51822
+1494837064433	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.wvYIgo2BCR7Q
+1494837064434	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1494837064437	geckodriver::marionette	INFO	Connecting to Marionette on localhost:42828
+1494837070049	Marionette	INFO	Listening on port 42828
+1494837070178	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.religiousgiftwarehouse.com/js/varien/product.js, line 485: unreachable code after return statement
+JavaScript warning: http://www.religiousgiftwarehouse.com/js/arw/ajaxcart/configurable.js, line 291: unreachable code after return statement
+JavaScript warning: http://www.religiousgiftwarehouse.com/js/varien/configurable.js, line 291: unreachable code after return statement
+JavaScript warning: http://www.religiousgiftwarehouse.com/js/calendar/calendar.js, line 138: unreachable code after return statement
+1494837102832	Marionette	INFO	New connections will no longer be accepted
+[Child 19940] WARNING: pipe error (18): Connection reset by peer: file /build/firefox-4Fdt0Z/firefox-53.0+build6/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 346
+[Child 19940] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-4Fdt0Z/firefox-53.0+build6/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 346
+1494842691866	geckodriver	INFO	Listening on 127.0.0.1:50706
+1494842692935	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.dRoB07vxA4HQ
+1494842692936	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1494842692939	geckodriver::marionette	INFO	Connecting to Marionette on localhost:36846
+1494842698406	Marionette	INFO	Listening on port 36846
+1494842698568	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.religiousgiftwarehouse.com/js/varien/product.js, line 485: unreachable code after return statement
+JavaScript warning: http://www.religiousgiftwarehouse.com/js/arw/ajaxcart/configurable.js, line 291: unreachable code after return statement
+JavaScript warning: http://www.religiousgiftwarehouse.com/js/varien/configurable.js, line 291: unreachable code after return statement
+JavaScript warning: http://www.religiousgiftwarehouse.com/js/calendar/calendar.js, line 138: unreachable code after return statement
+JavaScript warning: http://www.religiousgiftwarehouse.com/js/varien/product.js, line 485: unreachable code after return statement
+JavaScript warning: http://www.religiousgiftwarehouse.com/js/arw/ajaxcart/configurable.js, line 291: unreachable code after return statement
+JavaScript warning: http://www.religiousgiftwarehouse.com/js/varien/configurable.js, line 291: unreachable code after return statement
+JavaScript warning: http://www.religiousgiftwarehouse.com/js/calendar/calendar.js, line 138: unreachable code after return statement
+JavaScript warning: http://www.religiousgiftwarehouse.com/js/varien/product.js, line 485: unreachable code after return statement
+JavaScript warning: http://www.religiousgiftwarehouse.com/js/arw/ajaxcart/configurable.js, line 291: unreachable code after return statement
+JavaScript warning: http://www.religiousgiftwarehouse.com/js/varien/configurable.js, line 291: unreachable code after return statement
+JavaScript warning: http://www.religiousgiftwarehouse.com/js/calendar/calendar.js, line 138: unreachable code after return statement
+1494842742823	Marionette	INFO	New connections will no longer be accepted
+[Child 7507] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-4Fdt0Z/firefox-53.0+build6/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 346
+1494845827096	geckodriver	INFO	Listening on 127.0.0.1:59315
+1494845828168	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.OJzEFD6jfPoI
+1494845828169	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1494845828172	geckodriver::marionette	INFO	Connecting to Marionette on localhost:42354
+1494845834085	Marionette	INFO	Listening on port 42354
+1494845834194	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.religiousgiftwarehouse.com/js/varien/product.js, line 485: unreachable code after return statement
+JavaScript warning: http://www.religiousgiftwarehouse.com/js/arw/ajaxcart/configurable.js, line 291: unreachable code after return statement
+JavaScript warning: http://www.religiousgiftwarehouse.com/js/varien/configurable.js, line 291: unreachable code after return statement
+JavaScript warning: http://www.religiousgiftwarehouse.com/js/calendar/calendar.js, line 138: unreachable code after return statement
+1494845878998	Marionette	INFO	New connections will no longer be accepted
+[Child 18675] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-4Fdt0Z/firefox-53.0+build6/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 346
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+1495186121639	geckodriver	INFO	Listening on 127.0.0.1:35206
+1495186123151	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.TqSVgbnJQrXY
+1495186123152	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1495186123194	geckodriver::marionette	INFO	Connecting to Marionette on localhost:38156
+1495186138232	Marionette	INFO	Listening on port 38156
+1495186138412	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4A0001,name=PCrashReporter::Msg_AnnotateCrashReport) Channel error: cannot send/recv
+
+Crash Annotation GraphicsCriticalError: |[C0][GFX1-]: Receive IPC close with reason=AbnormalShutdown (t=14.2657) 
+###!!! [Child][MessageChannel] Error: (msgtype=0x4400C6,name=PContent::Msg_GraphicsError) Channel error: cannot send/recv
+
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+1495186181969	geckodriver	INFO	Listening on 127.0.0.1:51715
+1495186183078	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.QttG1vxpsfR2
+1495186183079	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1495186183087	geckodriver::marionette	INFO	Connecting to Marionette on localhost:44671
+1495186190003	Marionette	INFO	Listening on port 44671
+1495186190184	Marionette	WARN	TLS certificate errors will be ignored for this session
+1495186227551	Marionette	INFO	New connections will no longer be accepted
+[Child 15126] WARNING: pipe error (18): Connection reset by peer: file /build/firefox-4Fdt0Z/firefox-53.0+build6/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 346
+1495186412099	geckodriver	INFO	Listening on 127.0.0.1:45312
+1495186413170	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.s9D1PiGvmzoG
+1495186413171	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1495186413174	geckodriver::marionette	INFO	Connecting to Marionette on localhost:46258
+1495186421337	Marionette	INFO	Listening on port 46258
+1495186421444	Marionette	WARN	TLS certificate errors will be ignored for this session
+1495186450945	Marionette	INFO	New connections will no longer be accepted
+[Child 16301] WARNING: pipe error (18): Connection reset by peer: file /build/firefox-4Fdt0Z/firefox-53.0+build6/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 346
+1495186497563	geckodriver	INFO	Listening on 127.0.0.1:48405
+1495186498654	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.kr9AVbIezUu9
+1495186498655	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1495186498659	geckodriver::marionette	INFO	Connecting to Marionette on localhost:38659
+1495186505780	Marionette	INFO	Listening on port 38659
+1495186506081	Marionette	WARN	TLS certificate errors will be ignored for this session
+1495186535232	Marionette	INFO	New connections will no longer be accepted
+[Child 16838] WARNING: pipe error (18): Connection reset by peer: file /build/firefox-4Fdt0Z/firefox-53.0+build6/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 346
+[Child 16838] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-4Fdt0Z/firefox-53.0+build6/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 346
+1495186599162	geckodriver	INFO	Listening on 127.0.0.1:39502
+1495186600237	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.UZN7wYuZ0S7a
+1495186600238	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1495186600241	geckodriver::marionette	INFO	Connecting to Marionette on localhost:38260
+1495186605977	Marionette	INFO	Listening on port 38260
+1495186606197	Marionette	WARN	TLS certificate errors will be ignored for this session
+1495186639675	Marionette	INFO	New connections will no longer be accepted
+1495186727884	geckodriver	INFO	Listening on 127.0.0.1:48145
+1495186728982	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.1bZjKXuITDTH
+1495186728984	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1495186728988	geckodriver::marionette	INFO	Connecting to Marionette on localhost:42948
+1495186734540	Marionette	INFO	Listening on port 42948
+1495186735003	Marionette	WARN	TLS certificate errors will be ignored for this session
+1495186766956	Marionette	INFO	New connections will no longer be accepted
+1498209914925	geckodriver	INFO	Listening on 127.0.0.1:53325
+1498209916335	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.cK05FbL0mHR1
+1498209916337	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1498209916396	geckodriver::marionette	INFO	Connecting to Marionette on localhost:41853
+1498209934475	Marionette	WARN	Deprecated preference marionette.defaultPrefs.enabled detected, please use marionette.enabled
+1498209947225	Marionette	INFO	Listening on port 41853
+1498209948390	Marionette	WARN	TLS certificate errors will be ignored for this session
+1498209964748	Marionette	INFO	New connections will no longer be accepted
+JavaScript error: http://staging.arizonacustomknives.com.c.fohwqaw34hdgi.ent.magento.cloud/static/version1497438629/frontend/Ey/ack/en_US/requirejs/require.js, line 166: Error: Script error for: Magento_ProductVideo/js/fotorama-add-video-events
+http://requirejs.org/docs/errors.html#scripterror
+1498210211700	geckodriver	INFO	Listening on 127.0.0.1:42051
+1498210212767	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.qVOO7KP43dwk
+1498210212768	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1498210212772	geckodriver::marionette	INFO	Connecting to Marionette on localhost:43503
+1498210213866	Marionette	WARN	Deprecated preference marionette.defaultPrefs.enabled detected, please use marionette.enabled
+1498210218676	Marionette	INFO	Listening on port 43503
+1498210219176	Marionette	WARN	TLS certificate errors will be ignored for this session
+1498210231569	Marionette	INFO	New connections will no longer be accepted
+1498210337372	geckodriver	INFO	Listening on 127.0.0.1:38359
+1498210338457	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.tY7CNBbsduFc
+1498210338458	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1498210338462	geckodriver::marionette	INFO	Connecting to Marionette on localhost:34119
+1498210339518	Marionette	WARN	Deprecated preference marionette.defaultPrefs.enabled detected, please use marionette.enabled
+1498210344672	Marionette	INFO	Listening on port 34119
+1498210344757	Marionette	WARN	TLS certificate errors will be ignored for this session
+1498210361506	Marionette	INFO	New connections will no longer be accepted
+JavaScript error: http://staging.arizonacustomknives.com.c.fohwqaw34hdgi.ent.magento.cloud/static/version1497438629/frontend/Ey/ack/en_US/requirejs/require.js, line 166: Error: Script error for: Magento_Catalog/product/view/validation
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: http://staging.arizonacustomknives.com.c.fohwqaw34hdgi.ent.magento.cloud/static/version1497438629/frontend/Ey/ack/en_US/requirejs/require.js, line 166: Error: Script error for: Magento_Catalog/js/catalog-add-to-cart
+http://requirejs.org/docs/errors.html#scripterror
+1498210414670	geckodriver	INFO	Listening on 127.0.0.1:56344
+1498210415747	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.eUBEFXxQ8oMQ
+1498210415748	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1498210415751	geckodriver::marionette	INFO	Connecting to Marionette on localhost:41625
+1498210416898	Marionette	WARN	Deprecated preference marionette.defaultPrefs.enabled detected, please use marionette.enabled
+1498210422045	Marionette	INFO	Listening on port 41625
+1498210422131	Marionette	WARN	TLS certificate errors will be ignored for this session
+1498210436335	Marionette	INFO	New connections will no longer be accepted
+1498210464174	geckodriver	INFO	Listening on 127.0.0.1:42248
+1498210465243	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.cHAH9US7honI
+1498210465244	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1498210465248	geckodriver::marionette	INFO	Connecting to Marionette on localhost:34087
+1498210466463	Marionette	WARN	Deprecated preference marionette.defaultPrefs.enabled detected, please use marionette.enabled
+1498210471202	Marionette	INFO	Listening on port 34087
+1498210471613	Marionette	WARN	TLS certificate errors will be ignored for this session
+1498210483625	Marionette	INFO	New connections will no longer be accepted
+1503466806470	geckodriver	INFO	Listening on 127.0.0.1:49306
+1503466807582	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.vHt3Cz9QGloE
+1503466807584	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1503466807615	geckodriver::marionette	INFO	Connecting to Marionette on localhost:34064
+1503466814351	Marionette	INFO	Enabled via --marionette
+1503466822477	Marionette	INFO	Listening on port 34064
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1503466822562	Marionette	WARN	TLS certificate errors will be ignored for this session
+1503466822645	Marionette	DEBUG	loaded listener.js
+1503466823824	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1503466824630	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1503466824631	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1503466827323	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://arizonacustomknives.com.c.fohwqaw34hdgi.ent.magento.cloud/index.php/smf-tanto-grey-cerakote-by-strider-knives-149735.html"
+1503466841744	Marionette	DEBUG	Received DOM event "pageshow" for "http://arizonacustomknives.com.c.fohwqaw34hdgi.ent.magento.cloud/index.php/smf-tanto-grey-cerakote-by-strider-knives-149735.html"
+1503466859731	Marionette	INFO	New connections will no longer be accepted
+1503468195613	geckodriver	INFO	Listening on 127.0.0.1:49610
+1503468196686	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.Gc2aflVDnxXd
+1503468196688	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1503468196691	geckodriver::marionette	INFO	Connecting to Marionette on localhost:34731
+1503468198214	Marionette	INFO	Enabled via --marionette
+1503468202527	Marionette	INFO	Listening on port 34731
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1503468202636	Marionette	WARN	TLS certificate errors will be ignored for this session
+1503468202703	Marionette	DEBUG	loaded listener.js
+1503468203795	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1503468204703	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1503468204703	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1503468208947	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://arizonacustomknives.com.c.fohwqaw34hdgi.ent.magento.cloud/index.php/smf-tanto-grey-cerakote-by-strider-knives-149735.html"
+1503468217214	Marionette	DEBUG	Received DOM event "pageshow" for "http://arizonacustomknives.com.c.fohwqaw34hdgi.ent.magento.cloud/index.php/smf-tanto-grey-cerakote-by-strider-knives-149735.html"
+1503468234913	Marionette	INFO	New connections will no longer be accepted
+[Child 1469] WARNING: pipe error (19): Connection reset by peer: file /build/firefox-S0wyi8/firefox-55.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 1469] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-S0wyi8/firefox-55.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1503468310459	geckodriver	INFO	Listening on 127.0.0.1:58881
+1503468311527	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.4sURJclF7Nx2
+1503468311528	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1503468311531	geckodriver::marionette	INFO	Connecting to Marionette on localhost:37121
+1503468312907	Marionette	INFO	Enabled via --marionette
+1503468317288	Marionette	INFO	Listening on port 37121
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1503468317360	Marionette	WARN	TLS certificate errors will be ignored for this session
+1503468317434	Marionette	DEBUG	loaded listener.js
+1503468318566	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1503468319386	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1503468319387	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1503468322056	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://arizonacustomknives.com.c.fohwqaw34hdgi.ent.magento.cloud/index.php/atropos-folder-by-mercworx-knives-176698.html"
+1503468327174	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483649"
+JavaScript error: http://arizonacustomknives.com.c.fohwqaw34hdgi.ent.magento.cloud/static/frontend/Ey/ack/en_US/requirejs/require.js, line 166: Error: Script error for: Magento_Ui/js/lib/knockout/bindings/tooltip
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: http://arizonacustomknives.com.c.fohwqaw34hdgi.ent.magento.cloud/static/frontend/Ey/ack/en_US/requirejs/require.js, line 166: Error: Script error for: mage/utils/template
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: http://arizonacustomknives.com.c.fohwqaw34hdgi.ent.magento.cloud/static/frontend/Ey/ack/en_US/requirejs/require.js, line 166: Error: Script error for: jquery/jquery-migrate
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: http://arizonacustomknives.com.c.fohwqaw34hdgi.ent.magento.cloud/static/frontend/Ey/ack/en_US/requirejs/require.js, line 166: Error: Script error for: mage/common
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: http://arizonacustomknives.com.c.fohwqaw34hdgi.ent.magento.cloud/static/frontend/Ey/ack/en_US/requirejs/require.js, line 166: Error: Script error for: jquery/ui
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: http://arizonacustomknives.com.c.fohwqaw34hdgi.ent.magento.cloud/static/frontend/Ey/ack/en_US/requirejs/require.js, line 166: Error: Script error for: Magento_Ui/js/lib/knockout/bindings/outer_click
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: http://arizonacustomknives.com.c.fohwqaw34hdgi.ent.magento.cloud/static/frontend/Ey/ack/en_US/requirejs/require.js, line 166: Error: Script error for: mage/calendar
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: http://arizonacustomknives.com.c.fohwqaw34hdgi.ent.magento.cloud/static/frontend/Ey/ack/en_US/requirejs/require.js, line 166: Error: Script error for: jquery/jquery-storageapi
+http://requirejs.org/docs/errors.html#scripterror
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4400C6,name=PContent::Msg_GraphicsError) Channel error: cannot send/recv
+
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown

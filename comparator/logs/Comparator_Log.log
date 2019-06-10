@@ -1,0 +1,116 @@
+2017-08-24 08:34:42,900 - core.start - INFO - ComparisonId = 269 :  max error => 0
+2017-08-24 08:34:42,903 - core.start - INFO - ComparisonId = 269 :  project_run_type => 2
+2017-08-24 08:34:47,074 - core.start - INFO - *****************************
+2017-08-24 08:34:47,075 - core.start - INFO - ComparisonId = 269 : Starting Scrapping task!!
+2017-08-24 08:37:55,897 - core.start - INFO - ComparisonId = 269 : [172619]--- has error for field --> Maker2 with xpath ---> //*[@id="maincontent"]/div[2]/div/div[3]/div[3]/div[2]/div/div/div/div[1]
+2017-08-24 08:38:02,123 - core.start - INFO - ComparisonId = 269 : [172619]--- has error for field --> Maker3 with xpath ---> //*[@id="maincontent"]/div[2]/div/div[3]/div[3]/div[3]/div/div/div/div[1]
+2017-08-24 08:38:08,313 - core.start - INFO - ComparisonId = 269 : [172619]--- has error for field --> Maker4 with xpath ---> //*[@id="maincontent"]/div[2]/div/div[3]/div[3]/div[4]/div/div/div/div[1]
+2017-08-24 08:38:14,560 - core.start - INFO - ComparisonId = 269 : [172619]--- has error for field --> Blade Length with xpath ---> //*[div = ' Blade Length:']/div[2]
+2017-08-24 08:38:20,884 - core.start - INFO - ComparisonId = 269 : [172619]--- has error for field --> Source with xpath ---> //*[div = ' Source:']/div[2]
+2017-08-24 08:38:27,094 - core.start - INFO - ComparisonId = 269 : [172619]--- has error for field --> Blade_Material with xpath ---> //*[div = ' Blade Material:']/div[2]
+2017-08-24 08:38:33,342 - core.start - INFO - ComparisonId = 269 : [172619]--- has error for field --> Blade_Details with xpath ---> //*[div = ' Blade Details:']/div[2]
+2017-08-24 08:38:39,831 - core.start - INFO - ComparisonId = 269 : [172619]--- has error for field --> Handle_Material with xpath ---> //*[div = ' Handle Material:']/div[2]
+2017-08-24 08:38:46,294 - core.start - INFO - ComparisonId = 269 : [172619]--- has error for field --> Other_Details with xpath ---> //*[div = ' Other Details:']/div[2]
+2017-08-24 08:38:59,256 - core.start - INFO - ComparisonId = 269 : [17262]--- has error for field --> Maker2 with xpath ---> //*[@id="maincontent"]/div[2]/div/div[3]/div[3]/div[2]/div/div/div/div[1]
+2017-08-24 08:39:05,133 - core.start - INFO - ComparisonId = 269 : [17262]--- has error for field --> Maker3 with xpath ---> //*[@id="maincontent"]/div[2]/div/div[3]/div[3]/div[3]/div/div/div/div[1]
+2017-08-24 08:39:10,968 - core.start - INFO - ComparisonId = 269 : [17262]--- has error for field --> Maker4 with xpath ---> //*[@id="maincontent"]/div[2]/div/div[3]/div[3]/div[4]/div/div/div/div[1]
+2017-08-24 08:39:17,116 - core.start - INFO - ComparisonId = 269 : [17262]--- has error for field --> Blade_Material with xpath ---> //*[div = ' Blade Material:']/div[2]
+2017-08-24 08:39:23,083 - core.start - INFO - ComparisonId = 269 : [17262]--- has error for field --> Other_Details with xpath ---> //*[div = ' Other Details:']/div[2]
+2017-08-24 08:39:35,091 - core.start - INFO - ComparisonId = 269 : [172620]--- has error for field --> Maker2 with xpath ---> //*[@id="maincontent"]/div[2]/div/div[3]/div[3]/div[2]/div/div/div/div[1]
+2017-08-24 08:39:41,455 - core.start - INFO - ComparisonId = 269 : [172620]--- has error for field --> Maker3 with xpath ---> //*[@id="maincontent"]/div[2]/div/div[3]/div[3]/div[3]/div/div/div/div[1]
+2017-08-24 08:39:47,800 - core.start - INFO - ComparisonId = 269 : [172620]--- has error for field --> Maker4 with xpath ---> //*[@id="maincontent"]/div[2]/div/div[3]/div[3]/div[4]/div/div/div/div[1]
+2017-08-24 08:39:54,389 - core.start - INFO - ComparisonId = 269 : [172620]--- has error for field --> Source with xpath ---> //*[div = ' Source:']/div[2]
+2017-08-24 08:40:00,830 - core.start - INFO - ComparisonId = 269 : [172620]--- has error for field --> Blade_Material with xpath ---> //*[div = ' Blade Material:']/div[2]
+2017-08-24 08:40:07,236 - core.start - INFO - ComparisonId = 269 : [172620]--- has error for field --> Blade_Details with xpath ---> //*[div = ' Blade Details:']/div[2]
+2017-08-24 08:40:13,704 - core.start - INFO - ComparisonId = 269 : [172620]--- has error for field --> Handle_Material with xpath ---> //*[div = ' Handle Material:']/div[2]
+2017-08-24 08:40:20,088 - core.start - INFO - ComparisonId = 269 : [172620]--- has error for field --> Other_Details with xpath ---> //*[div = ' Other Details:']/div[2]
+2017-08-24 08:40:30,396 - core.start - INFO - ComparisonId = 269 : [172621]--- has error for field --> Maker2 with xpath ---> //*[@id="maincontent"]/div[2]/div/div[3]/div[3]/div[2]/div/div/div/div[1]
+2017-08-24 08:40:36,560 - core.start - INFO - ComparisonId = 269 : [172621]--- has error for field --> Maker3 with xpath ---> //*[@id="maincontent"]/div[2]/div/div[3]/div[3]/div[3]/div/div/div/div[1]
+2017-08-24 08:40:42,876 - core.start - INFO - ComparisonId = 269 : [172621]--- has error for field --> Maker4 with xpath ---> //*[@id="maincontent"]/div[2]/div/div[3]/div[3]/div[4]/div/div/div/div[1]
+2017-08-24 08:40:48,662 - core.start - INFO - ComparisonId = 269 : [172621]--- has error for field --> Source with xpath ---> //*[div = ' Source:']/div[2]
+2017-08-24 08:40:55,079 - core.start - INFO - ComparisonId = 269 : [172621]--- has error for field --> Blade_Material with xpath ---> //*[div = ' Blade Material:']/div[2]
+2017-08-24 08:41:00,646 - core.start - INFO - ComparisonId = 269 : [172621]--- has error for field --> Blade_Details with xpath ---> //*[div = ' Blade Details:']/div[2]
+2017-08-24 08:41:07,067 - core.start - INFO - ComparisonId = 269 : [172621]--- has error for field --> Handle_Material with xpath ---> //*[div = ' Handle Material:']/div[2]
+2017-08-24 08:41:13,437 - core.start - INFO - ComparisonId = 269 : [172621]--- has error for field --> Other_Details with xpath ---> //*[div = ' Other Details:']/div[2]
+2017-08-24 08:41:24,528 - core.start - INFO - ComparisonId = 269 : [172622]--- has error for field --> Maker2 with xpath ---> //*[@id="maincontent"]/div[2]/div/div[3]/div[3]/div[2]/div/div/div/div[1]
+2017-08-24 08:41:30,925 - core.start - INFO - ComparisonId = 269 : [172622]--- has error for field --> Maker3 with xpath ---> //*[@id="maincontent"]/div[2]/div/div[3]/div[3]/div[3]/div/div/div/div[1]
+2017-08-24 08:41:37,313 - core.start - INFO - ComparisonId = 269 : [172622]--- has error for field --> Maker4 with xpath ---> //*[@id="maincontent"]/div[2]/div/div[3]/div[3]/div[4]/div/div/div/div[1]
+2017-08-24 08:41:43,763 - core.start - INFO - ComparisonId = 269 : [172622]--- has error for field --> Blade Length with xpath ---> //*[div = ' Blade Length:']/div[2]
+2017-08-24 08:41:50,310 - core.start - INFO - ComparisonId = 269 : [172622]--- has error for field --> Source with xpath ---> //*[div = ' Source:']/div[2]
+2017-08-24 08:41:55,853 - core.start - INFO - ComparisonId = 269 : [172622]--- has error for field --> Blade_Material with xpath ---> //*[div = ' Blade Material:']/div[2]
+2017-08-24 08:42:01,416 - core.start - INFO - ComparisonId = 269 : [172622]--- has error for field --> Blade_Details with xpath ---> //*[div = ' Blade Details:']/div[2]
+2017-08-24 08:42:07,869 - core.start - INFO - ComparisonId = 269 : [172622]--- has error for field --> Handle_Material with xpath ---> //*[div = ' Handle Material:']/div[2]
+2017-08-24 08:42:14,179 - core.start - INFO - ComparisonId = 269 : [172622]--- has error for field --> Other_Details with xpath ---> //*[div = ' Other Details:']/div[2]
+2017-08-24 08:42:27,682 - core.start - INFO - ComparisonId = 269 : [172623]--- has error for field --> Maker2 with xpath ---> //*[@id="maincontent"]/div[2]/div/div[3]/div[3]/div[2]/div/div/div/div[1]
+2017-08-24 08:42:33,418 - core.start - INFO - ComparisonId = 269 : [172623]--- has error for field --> Maker3 with xpath ---> //*[@id="maincontent"]/div[2]/div/div[3]/div[3]/div[3]/div/div/div/div[1]
+2017-08-24 08:42:39,132 - core.start - INFO - ComparisonId = 269 : [172623]--- has error for field --> Maker4 with xpath ---> //*[@id="maincontent"]/div[2]/div/div[3]/div[3]/div[4]/div/div/div/div[1]
+2017-08-24 08:42:44,864 - core.start - INFO - ComparisonId = 269 : [172623]--- has error for field --> base_image with xpath ---> //*[@id="maincontent"]/div[2]/div/div[1]/div/div[2]/div[2]/div[1]/div[3]/div[1]/img
+2017-08-24 08:42:50,564 - core.start - INFO - ComparisonId = 269 : [172623]--- has error for field --> Blade Length with xpath ---> //*[div = ' Blade Length:']/div[2]
+2017-08-24 08:42:56,386 - core.start - INFO - ComparisonId = 269 : [172623]--- has error for field --> Source with xpath ---> //*[div = ' Source:']/div[2]
+2017-08-24 08:43:02,313 - core.start - INFO - ComparisonId = 269 : [172623]--- has error for field --> Blade_Material with xpath ---> //*[div = ' Blade Material:']/div[2]
+2017-08-24 08:43:08,271 - core.start - INFO - ComparisonId = 269 : [172623]--- has error for field --> Blade_Details with xpath ---> //*[div = ' Blade Details:']/div[2]
+2017-08-24 08:43:14,194 - core.start - INFO - ComparisonId = 269 : [172623]--- has error for field --> Handle_Material with xpath ---> //*[div = ' Handle Material:']/div[2]
+2017-08-24 08:43:20,128 - core.start - INFO - ComparisonId = 269 : [172623]--- has error for field --> Other_Details with xpath ---> //*[div = ' Other Details:']/div[2]
+2017-08-24 08:48:20,734 - core.start - INFO - Connection issue for id 172624 with url http://arizonacustomknives.com.c.fohwqaw34hdgi.ent.magento.cloud/index.php/mini-chubby-fuller-by-zach-wood-172624.html 
+2017-08-24 08:48:20,741 - core.start - INFO - ComparisonId = 269 : Scrapping task completed!!
+2017-08-24 08:48:20,741 - core.start - INFO - ComparisonId = 269 : Scrapping details written to file --> Comparator_Output/RGW/RGW_scrapped_20170824-083442.csv
+2017-08-24 08:48:20,757 - core.start - INFO - *****************************
+2017-08-24 08:48:20,773 - core.start - INFO - *****************************
+2017-08-24 08:48:20,774 - core.start - INFO - ComparisonId = 269 : Starting comparision task
+2017-08-24 08:48:20,777 - core.start - INFO - ComparisonId = 269 : Comparing for 149735
+2017-08-24 08:48:21,103 - core.start - INFO - ComparisonId = 269 : Comparing for 149736
+2017-08-24 08:48:21,158 - core.start - INFO - ComparisonId = 269 : Comparision task completed
+2017-08-24 08:48:21,160 - core.start - INFO - *****************************
+2017-08-24 08:48:21,160 - core.start - INFO - *****************************
+2017-08-24 08:48:21,160 - core.start - INFO - ComparisonId = 269 : Closing Comparator!!!!
+2017-08-24 08:48:21,160 - core.start - INFO - *****************************
+2017-08-24 08:48:21,161 - core.start - INFO - ComparisonId = 269 : Completed Comparison  with total error => 9 
+2017-08-24 08:50:21,640 - core.start - INFO - ComparisonId = 270 :  max error => 0
+2017-08-24 08:50:21,641 - core.start - INFO - ComparisonId = 270 :  project_run_type => 2
+2017-08-24 08:50:22,699 - core.start - INFO - *****************************
+2017-08-24 08:50:22,700 - core.start - INFO - ComparisonId = 270 : Starting Scrapping task!!
+2017-08-24 08:51:22,524 - core.start - INFO - ComparisonId = 270 : [172624]--- has error for field --> Maker2 with xpath ---> //*[@id="maincontent"]/div[2]/div/div[3]/div[3]/div[2]/div/div/div/div[1]
+2017-08-24 08:51:28,646 - core.start - INFO - ComparisonId = 270 : [172624]--- has error for field --> Maker3 with xpath ---> //*[@id="maincontent"]/div[2]/div/div[3]/div[3]/div[3]/div/div/div/div[1]
+2017-08-24 08:51:34,757 - core.start - INFO - ComparisonId = 270 : [172624]--- has error for field --> Maker4 with xpath ---> //*[@id="maincontent"]/div[2]/div/div[3]/div[3]/div[4]/div/div/div/div[1]
+2017-08-24 08:51:40,890 - core.start - INFO - ComparisonId = 270 : [172624]--- has error for field --> Blade Length with xpath ---> //*[div = ' Blade Length:']/div[2]
+2017-08-24 08:51:47,131 - core.start - INFO - ComparisonId = 270 : [172624]--- has error for field --> Source with xpath ---> //*[div = ' Source:']/div[2]
+2017-08-24 08:51:53,234 - core.start - INFO - ComparisonId = 270 : [172624]--- has error for field --> Blade_Material with xpath ---> //*[div = ' Blade Material:']/div[2]
+2017-08-24 08:51:59,351 - core.start - INFO - ComparisonId = 270 : [172624]--- has error for field --> Blade_Details with xpath ---> //*[div = ' Blade Details:']/div[2]
+2017-08-24 08:52:05,405 - core.start - INFO - ComparisonId = 270 : [172624]--- has error for field --> Handle_Material with xpath ---> //*[div = ' Handle Material:']/div[2]
+2017-08-24 08:52:11,514 - core.start - INFO - ComparisonId = 270 : [172624]--- has error for field --> Other_Details with xpath ---> //*[div = ' Other Details:']/div[2]
+2017-08-24 08:52:11,582 - core.start - INFO - ComparisonId = 270 : Scrapping task completed!!
+2017-08-24 08:52:11,583 - core.start - INFO - ComparisonId = 270 : Scrapping details written to file --> Comparator_Output/RGW/RGW_scrapped_20170824-085021.csv
+2017-08-24 08:52:11,596 - core.start - INFO - *****************************
+2017-08-24 08:52:11,608 - core.start - INFO - *****************************
+2017-08-24 08:52:11,609 - core.start - INFO - ComparisonId = 270 : Starting comparision task
+2017-08-24 08:52:11,614 - core.start - INFO - ComparisonId = 270 : Comparing for 149735
+2017-08-24 08:52:11,622 - core.start - INFO - ComparisonId = 270 : Comparing for 149736
+2017-08-24 08:52:11,635 - core.start - INFO - ComparisonId = 270 : Comparision task completed
+2017-08-24 08:52:11,637 - core.start - INFO - *****************************
+2017-08-24 08:52:11,637 - core.start - INFO - *****************************
+2017-08-24 08:52:11,637 - core.start - INFO - ComparisonId = 270 : Closing Comparator!!!!
+2017-08-24 08:52:11,638 - core.start - INFO - *****************************
+2017-08-24 08:52:11,638 - core.start - INFO - ComparisonId = 270 : Completed Comparison  with total error => 3 
+2017-08-25 06:44:41,034 - core.start - INFO - ComparisonId = 271 :  max error => 0
+2017-08-25 06:44:41,048 - core.start - INFO - ComparisonId = 271 :  project_run_type => 2
+2017-08-25 06:44:45,179 - core.start - INFO - *****************************
+2017-08-25 06:44:45,179 - core.start - INFO - ComparisonId = 271 : Starting Scrapping task!!
+2017-08-25 06:45:15,198 - core.start - INFO - ComparisonId = 271 : [149735]--- has error for field --> Maker2 with xpath ---> //*[@id="maincontent"]/div[2]/div/div[3]/div[3]/div[2]/div/div/div/div[1]
+2017-08-25 06:45:21,254 - core.start - INFO - ComparisonId = 271 : [149735]--- has error for field --> Maker3 with xpath ---> //*[@id="maincontent"]/div[2]/div/div[3]/div[3]/div[3]/div/div/div/div[1]
+2017-08-25 06:45:27,317 - core.start - INFO - ComparisonId = 271 : [149735]--- has error for field --> Maker4 with xpath ---> //*[@id="maincontent"]/div[2]/div/div[3]/div[3]/div[4]/div/div/div/div[1]
+2017-08-25 06:45:27,782 - core.start - INFO - Invalid url for id 149736 with url http:// 
+2017-08-25 06:45:30,720 - core.start - INFO - ComparisonId = 271 : Scrapping task completed!!
+2017-08-25 06:45:30,720 - core.start - INFO - ComparisonId = 271 : Scrapping details written to file --> Comparator_Output/RGW/RGW_scrapped_20170825-064440.csv
+2017-08-25 06:45:30,733 - core.start - INFO - *****************************
+2017-08-25 06:45:30,747 - core.start - INFO - *****************************
+2017-08-25 06:45:30,748 - core.start - INFO - ComparisonId = 271 : Starting comparision task
+2017-08-25 06:45:30,753 - core.start - INFO - ComparisonId = 271 : Comparing for 149735
+2017-08-25 06:45:30,780 - core.start - INFO - ComparisonId = 271 : Comparing for 149736
+2017-08-25 06:45:30,780 - core.start - INFO - ComparisonId = 271 : [149736] has invalid URL error
+2017-08-25 06:45:30,790 - core.start - INFO - ComparisonId = 271 : [149013] has url error
+2017-08-25 06:45:30,797 - core.start - INFO - ComparisonId = 271 : Comparision task completed
+2017-08-25 06:45:30,799 - core.start - INFO - *****************************
+2017-08-25 06:45:30,799 - core.start - INFO - *****************************
+2017-08-25 06:45:30,800 - core.start - INFO - ComparisonId = 271 : Closing Comparator!!!!
+2017-08-25 06:45:30,800 - core.start - INFO - *****************************
+2017-08-25 06:45:30,801 - core.start - INFO - ComparisonId = 271 : Completed Comparison  with total error => 2 

@@ -1,0 +1,138 @@
+{% extends 'base.html' %}
+{% load file_exists_tag %}
+
+{% block title %}
+    <title>
+        {{project_name}} Comparison History
+    </title>
+{% endblock %}
+
+{% block content %}
+    {% if is_user_assigned_to_project %}
+        {% if project_comparison_history_list %}
+        
+         <form method='GET' action='' style="margin-left: 35px;">
+            <div class="col-md-offset-7 col-lg-3">
+            <input type='text' class="form-control"  name='q' placeholder='Search'/>
+            </div>
+        
+            <input type='submit'  class="btn btn-primary" value='Search User'/>
+        </form> 
+
+
+            <div class="container-fluid">
+                <div class="row">
+                    <h1 align="center">{{project_name}}</h1>
+                    <hr>
+                        <p>
+                            <ul>
+                                {% for project_history in project_comparison_history_list %}
+                                    <h3>Comparison Date->  {{project_history.start_time}}</h3>
+
+                                    <table class="table table-striped table-bordered table-responsive" style="width: 100%">
+                                        <tr>
+                                            <th style="width:50px">#</th>
+                                            <th>User</th>
+                                            <th>Url file name</th>
+                                            <th>Xpath file name</th>
+                                            <th>Platform file name</th>
+                                            <th>Project status</th>
+                                            <th>Project run priority</th>
+                                            <th>Project scraped file</th>
+                                            <th>Project report file</th>
+                                            <th>Downloadables</th>
+                                        </tr>
+                                        <tr>
+                                            <td>{{project_history.id }}</td>
+                                            <td>{{ project_history.user.username }}</td>
+                                            <td>
+                                                {% file_exists project_history.project_url_file project_name 'media' as url_file_exists %}
+                                                {% if url_file_exists %}
+                                                    <a href="{% url 'engine:file_download' project_name=project_history.project file_name=project_history.project_url_file file_dir='media' %}">{{project_history.project_url_file}} <span class="glyphicon glyphicon-download-alt"></span></a>
+                                                {% else %}
+                                                    {{project_history.project_url_file}}
+                                                {% endif %}
+                                            </td>
+                                            <td>
+                                                {% file_exists project_history.project_xpath_file project_name 'media' as xpath_file_exists %}
+                                                {% if xpath_file_exists %}
+                                                    <a href="{% url 'engine:file_download' project_name=project_history.project file_name=project_history.project_xpath_file file_dir='media' %}">{{project_history.project_xpath_file}} <span class="glyphicon glyphicon-download-alt"></span></a>
+                                                {% else %}
+                                                    {{project_history.project_xpath_file}}
+                                                {% endif %}
+                                            </td>
+                                            <td>
+                                                {% file_exists project_history.project_platform_import_file project_name 'media' as platform_file_exists %}
+                                                {% if platform_file_exists %}
+                                                    <a href="{% url 'engine:file_download' project_name=project_history.project file_name=project_history.project_platform_import_file file_dir='media' %}">{{project_history.project_platform_import_file}} <span class="glyphicon glyphicon-download-alt"></span></a>
+                                                {% else %}
+                                                    {{project_history.project_platform_import_file}}
+                                                {% endif %}
+                                            </td>
+                                            <td>{{ project_history.project_status }}</td>
+                                            <td>{{project_history.comparison_type }}
+                                                
+                                            </td>
+                                            <td>{{ project_history.project_scrapper_output_file }}</td>
+                                            <td>{{ project_history.project_report_file }}</td>
+                                            <td>
+                                               
+                                                    {% file_exists project_history.project_scrapper_output_file project_name 'output' as scrapped_file_exists %}
+                                                    {% if scrapped_file_exists %}
+                                                        <a href="{% url 'engine:file_download' project_name=project_history.project file_name=project_history.project_scrapper_output_file file_dir='output' %}">Scrapped Details <span class="glyphicon glyphicon-download-alt"></span></a>
+                                                    {% endif %}
+                                                    <hr>
+                                                    {% file_exists project_history.project_report_file project_name 'output' as report_file_exists %}
+                                                    {% if report_file_exists %}
+                                                        <a href="{% url 'engine:file_download' project_name=project_history.project file_name=project_history.project_report_file file_dir='output' %}">Comparator Report <span class="glyphicon glyphicon-download-alt"></span></a>
+                                                    {% endif %}
+                                                
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <hr>
+                                    
+                                {% endfor %}
+                            </ul>
+                        </p>
+
+                        {% if is_paginated %}
+                            <center>
+                                <div>
+                                  <ul class="pagination">
+                                    {% if page_obj.has_previous %}
+                                      <li><a href="?page={{ page_obj.previous_page_number }}">&laquo;</a></li>
+                                    {% else %}
+                                      <li class="disabled"><span>&laquo;</span></li>
+                                    {% endif %}
+                                    {% for i in paginator.page_range %}
+                                      {% if page_obj.number == i %}
+                                        <li class="active"><span>{{ i }} <span class="sr-only">(current)</span></span></li>
+                                      {% else%}
+                                            {% if i >= page_obj.number|add:"-3" and i <= page_obj.number|add:"+3"  %}
+                                            <li><a href="?page={{ i }}">{{ i }}</a></li>
+                                            {% endif %}
+                                      {% endif %}
+                                    {% endfor %}
+                                    {% if page_obj.has_next %}
+                                      <li><a href="?page={{ page_obj.next_page_number }}">&raquo;</a></li>
+                                    {% else %}
+                                      <li class="disabled"><span>&raquo;</span></li>
+                                    {% endif %}
+                                  </ul>
+                                </div>
+                            </center>
+                    {% endif %}
+                </div>
+            </div>
+        {% else %}
+            <h1>No comparison history found for {{project_name}}. </h1>
+            <br>
+            <a href="{% url 'project:project_list' %}"> List of Projects</a>
+        {% endif %}
+    {% else %}
+        This project is not authorized for you. Please select appropraite project.
+        <br>
+        <a href="{% url 'project:project_list' %}"> List of Projects</a>
+    {% endif %}
+{% endblock %}

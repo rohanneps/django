@@ -1,0 +1,12 @@
+li a {
+    color: green;
+}
+
+body {
+    background: white url("back.gif") no-repeat right bottom;
+}
+
+.table{
+    word-wrap: break-word;
+    table-layout: fixed;
+}
