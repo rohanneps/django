@@ -1,0 +1,13 @@
+**/__pycache__
+
+**/*.pyc
+
+
+**/*.tsv
+!ColorLabelListing.tsv
+
+**/.env
+**/*.jpg
+**/*.log
+
+**/settings.py
