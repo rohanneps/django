@@ -47,7 +47,7 @@ def copy_ftp_file_over_sftp_using_key(remote_src_file_loc, local_dest_file_loc):
 	ssh_client=paramiko.SSHClient()
 	ssh_client.set_missing_host_key_policy(paramiko.AutoAddPolicy())			# enable the host machine to trust remote machine
 
-	ssh_client.connect(hostname=settings.FTP_LOCATION,username=settings.FTP_USER,key_filename=settings.FTP_KEY_PATH, timeout=setting.FTP_TIMEOUT)
+	ssh_client.connect(hostname=settings.FTP_LOCATION,username=settings.FTP_USER,key_filename=settings.FTP_KEY_PATH, timeout=settings.FTP_TIMEOUT)
 
 	# file copy
 	ftp_client=ssh_client.open_sftp()

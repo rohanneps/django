@@ -80,8 +80,38 @@ CONFIDENCE_MATRIX_MAPPING_TYPE={
 		},
 		"request_id":{"type":"text"},
 		"sys_index":{"type":"text"},
-		"s_sku":{"type":"text"},
-		"s_item_name":{"type":"text"},
+		
+		# additional field for term search and sorting
+
+
+		# "s_sku":{
+		# 			"type":"text",
+		# 			"fields": {
+		# 						"keyword":{
+		# 								"type":"keyword"
+		# 								}
+		# 						}
+		# 		},
+		"s_sku":{
+			"type":"text",
+			"fields": {
+						"keyword":{
+								"type":"text",
+								"analyzer":"analyzer_case_insensitive"
+								}
+						}
+		},
+
+		"s_item_name":{
+					"type":"text",
+					"fields": {
+								"keyword":{
+										"type":"text",
+										"analyzer":"analyzer_case_insensitive"
+										}
+								}
+				},
+
 		"s_price":{"type":"text"},
 		"s_mpn":{"type":"text"},
 		"s_upc":{"type":"text"},
@@ -103,6 +133,7 @@ CONFIDENCE_MATRIX_MAPPING_TYPE={
 		"r_gtin":{"type":"text"},
 		"r_variant_info":{"type":"text"},
 		"r_image_url":{"type":"text"},
+		"r_image_url_main":{"type":"text"},
 		"r_product_url":{"type":"text"},
 		"r_brand":{"type":"text"},
 		"r_category":{"type":"text"},

@@ -37,6 +37,16 @@ def get_unique_products_and_total_count(file_name):
 	project_file_location = os.path.join(settings.PROJECT_INPUT_FOLDER, file_name)
 
 	df = pd.read_csv(project_file_location, sep='\t', encoding='ISO-8859-1', dtype=object)
+	
+	df, total_count, total_unique_products = set_system_index(df)
+	df.to_csv(project_file_location, index=False,sep='\t', encoding='ISO-8859-1')
+
+	return total_count, total_unique_products
+
+def set_system_index(df):
+	"""
+	Set Unique Index to each Product-Search Combination
+	"""
 	column_list = df.columns.tolist()
 	total_count = len(df)
 	total_unique_products = len(df['s_item_name'].unique().tolist())
@@ -47,10 +57,8 @@ def get_unique_products_and_total_count(file_name):
 	df['sys_index'] = range(1, total_count+1)
 
 	df = df[['sys_index']+column_list]
-	df.to_csv(project_file_location, index=False,sep='\t', encoding='ISO-8859-1')
 
-	return total_count, total_unique_products
-
+	return df, total_count, total_unique_products
 
 def get_from_date_to_date_format(from_date, to_date):
 	from_date_list = from_date.split('/')

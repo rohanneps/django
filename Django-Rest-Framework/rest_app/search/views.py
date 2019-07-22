@@ -380,6 +380,8 @@ def find_project_detail_report(request):
 				if project.status!='Pending':
 					detailed_response_dict['project_phase'] = settings.PROJECT_PROCESS_STATUS_DICT[project.projectstatus_set.all()[0].project_phase]
 					detailed_response_dict['project_completion_percentage'] = project.projectstatus_set.all()[0].project_completion_percentage
+					detailed_response_dict['project_completion_datetime'] = project.projectstatus_set.all()[0].last_updated_date
+					detailed_response_dict['project_process_initiation_datetime'] = project.projectstatus_set.all()[0].start_datetime
 				
 				return Response({'response':detailed_response_dict,'total_hits':project_count})
 			else:

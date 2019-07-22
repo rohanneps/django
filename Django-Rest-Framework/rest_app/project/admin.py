@@ -28,13 +28,13 @@ admin.site.register(Project, ProjectAdmin)
 
 
 class ProjectStatusAdmin(admin.ModelAdmin):
-	list_display = ['id','project','project_id','start_datetime','project_phase','project_completion_percentage','asynctask_id']
+	list_display = ['id','project','project_id','start_datetime','last_updated_date','project_phase','project_completion_percentage','asynctask_id']
 	list_filter = ['project_phase','start_datetime','project_completion_percentage']
 	search_fields = ['id','project__client_name','project_phase','project_completion_percentage','asynctask_id','project__id']
-	readonly_fields = ['project_id','project_completion_percentage','project_phase','asynctask_id','project','start_datetime']
+	readonly_fields = ['project_id','project_completion_percentage','project_phase','asynctask_id','project','start_datetime','last_updated_date']
 
 	fieldsets=[
-				('ProjectStatus Info',{'fields':['project','project_id','start_datetime']}),
+				('ProjectStatus Info',{'fields':['project','project_id','start_datetime','last_updated_date']}),
 
 				('Project Phase Status', {'fields': ('project_phase','project_completion_percentage'),}),
 				

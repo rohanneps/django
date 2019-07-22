@@ -10,8 +10,8 @@ comp_logger = logging.getLogger(__name__)
 
 
 # to start the celery worker daemon
-#celery worker -A rest_image_match_server.celery_settings -l info
-#flower -A rest_image_match_server --port=5555   --> to view error log of celery
+# celery worker -A rest_image_match_server.celery_settings -l info
+# flower -A rest_image_match_server --port=5555   --> to view error log of celery
 
 
 @shared_task(bind=True)
