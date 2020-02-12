@@ -1,0 +1,97 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+
+
+{% block title %}
+{% if Prospectid %}
+Prospect Started for ID:{{Prospectid}} | GBD
+{% else %}
+Prospect Scheduling | GBD
+{% endif %}
+{% endblock %}
+
+ {% block content %}
+
+
+
+ {% if request.POST %}
+
+   <main role="main" class="container">
+        <div class="jumbotron">
+           <div class="card-header"><h1><b>Schedule Prospect Run</b></h1></div><br/>
+           {% if form.errors %}
+            <form enctype="multipart/form-data" method='POST' action=''  %}">{% csrf_token %}
+                <font color="red">
+                  {{form.errors}}
+                  </font>
+                  <hr>
+                   <a href ="{% url 'download_sample_template' %}">Download a Sample File </a>
+                   <hr>
+                   <br/>
+                    <b>{{ form.name.label_tag }}</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ form.name }}
+                    <br/>
+                    <b>{{ form.file_name.label_tag }}</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ form.file_name }}
+                    <br/>
+                    <b>{{ form.platform.label_tag }}</b> &nbsp;&nbsp;&nbsp;&nbsp;{{ form.platform }}
+                    <br/>
+                    <b>{{ form.email_recipients.label_tag }}</b> &nbsp;&nbsp;&nbsp;&nbsp;{{ form.email_recipients }}
+                    <br/>
+                
+            <input type='submit' class="btn btn-info btn-sm" value='Start' style="border-radius: 4px;" />
+            </form>
+
+           {% else %}
+              {% if prospect_id %}
+                Prospect run scheduled With ID: {{prospect_id}}. The run is hourly for three days with maximum run count of 84.
+              {% endif %}
+        {% endif %}
+        </div>
+      </main>
+
+
+
+
+ {% else %}
+ <main role="main" class="container">
+      <div class="jumbotron">
+         <div class="card-header"><h1><b>Schedule Prospect Run</b></h1></div><br/>
+            <p class="lead">
+              Enter details Below
+            </p>
+
+            <font color="blue">
+            Mandatory Column: <strong>'Search Keyword' </strong>
+            </font>
+          <p>
+          <hr>
+          <a href ="{% url 'download_sample_template' %}">Download a Sample File </a>
+        </p>
+        <br/>
+        <form enctype="multipart/form-data" method='POST' action=''  %}">{% csrf_token %}
+          {% if form.errors %}
+          <font color="red">
+            {{form.errors}}
+            </font>
+          {% endif %}
+              <b>{{ form.name.label_tag }}</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ form.name }}
+              <br/>
+              <b>{{ form.file_name.label_tag }}</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ form.file_name }}
+              <br/>
+              <b>{{ form.platform.label_tag }}</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ form.platform }}
+              <br/>
+              <b>{{ form.email_recipients.label_tag }}</b> &nbsp;&nbsp;&nbsp;&nbsp;{{ form.email_recipients }}
+              <br/>
+          
+      <input type='submit' class="btn btn-info btn-sm" value='Start' style="border-radius: 4px;" />
+      </form>
+      </div>
+    </main>
+ 
+
+ {% endif %}
+
+
+
+{% endblock %}
+
+

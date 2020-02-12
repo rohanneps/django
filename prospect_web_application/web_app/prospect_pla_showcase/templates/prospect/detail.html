@@ -1,0 +1,46 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+
+{% block title %}
+{{prospect_obj.name}} | GBD
+{% endblock %}
+
+ {% block content %}
+ <main role="main" class="container">
+      <div class="jumbotron">
+<div class="col-sm-12 col-md-12 col-sm-offset-2" style="margin-top: 2%; margin-left: 4%; width:90%; border-radius: 6px;">
+  <div class="card-header"><h3><b>
+    Prospect Details</h3></b>
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">
+    <h4><b>ID: <font color="orange"> {{prospect_obj.id }}</font></b></h4>
+    <h3><b>Name: <font color="orange"> {{prospect_obj.name }}</font></b></h3>
+    
+    <hr width="100%">
+    <h4><b>Start Date: <font color="orange"> {{prospect_obj.start_date }}</font></b></h4>
+    <h4><b>Platform: <font color="orange"> {{prospect_obj.platform }}</font></b></h4>
+     <h4><b>Run Count: <font color="orange"> {{prospect_obj.run_count }}</font></b></h4>
+    </h5>
+    
+    <p class="card-text"> <h4><b>Status:</b> <font color="orange">
+    {% ifequal prospect_obj.status True %}
+    Active
+    {% else %}
+    Inactive
+    {% endifequal %}
+    </font></h4></p>
+    <p class="card-text"> <h4><b>Email Recipient List:</b> <font color="orange">{{prospect_obj.email_recipients}}
+    </font></h4></p>
+
+    <hr width="100%">
+     
+    </div>
+  </h3>
+  </div>
+  </div>
+  </div>
+</main>
+{% endblock %}
+
+

@@ -1,0 +1,86 @@
+{% load staticfiles %}
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../../../favicon.ico">
+    <title>
+
+    {% block title %}
+       Prospect PLA/Showcase Scheduler | GBD
+    {% endblock %}
+    </title>
+    
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href='{% static "css/bootstrap.min.css" %}'>
+    
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href='{% static "css/navbar-static_navbar-top.css" %}'>
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
+      <a class="navbar-brand" href=""><img src='{% static "img/index.png" %}' heigth='80' width='160'></a></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+          <a class="nav-link" href="{% url 'app_home' %}">Home</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="{% url 'prospect:all_prospects' %}">Prospect List</a>
+          </li>
+
+          <li class="nav-item dropdown active">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Run Details
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="{% url 'prospect:google_run_details' %}">Google</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="{% url 'prospect:amazon_run_details' %}">Amazon</a>
+            </div>
+          </li>
+
+          </ul>
+          <ul class="nav navbar-nav ml-auto">
+          {% if user.is_authenticated %}
+                <li class="nav-item navbar-right dropdown active">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      {{ user.username }}
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="{% url 'logout' %}">logout</a>
+                      <div class="dropdown-divider"></div>
+                    </div>
+                 </li>
+          {% else %}
+              <li class="nav-item navbar-right active">
+                <a class="nav-link" href="{% url 'login' %}">login</a>
+              </li>
+          {% endif %}
+           
+
+        </ul>
+      </div>
+    </nav>
+
+    {% block content %}
+    {% endblock %}
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+     <script src='{% static "js/popper.min.js" %}'></script>
+    <script src='{% static "js/bootstrap.min.js" %}'></script>
+  </body>
+</html>

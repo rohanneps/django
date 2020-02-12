@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% block title %}
+Prospect PLA/Showcase Scheduler | GBD
+{% endblock %}
+
+{% block search %}
+            
+{% endblock %}
+
+ {% block content %}
+ <main role="main" class="container">
+      <div class="jumbotron">
+        <div class="card-header"><h1><b>Prospect PLA/Showcase details Extractor</b></h1></div>
+        <br/><br/>
+        <p class="lead"> 
+        	Upload a keyword file(.tsv) to get Started!! 
+        </p>
+
+    <p>
+			
+			
+		</p>
+        <a class="btn btn-lg btn-primary" href="{% url 'prospect:schedule_prospect' %}" role="button">Schedule</a>
+      </div>
+    </main>
+
+{% endblock %}
+
+
