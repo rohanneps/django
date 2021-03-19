@@ -11,7 +11,7 @@ cffi==1.12.3
 chardet==3.0.4
 cryptography==2.6.1
 Django==2.2.1
-djangorestframework==3.9.3
+djangorestframework==3.11.2
 elasticsearch==7.0.0
 flower==0.9.3
 gast==0.2.2
